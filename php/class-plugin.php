@@ -13,6 +13,13 @@ namespace Tackle;
 class Plugin extends Plugin_Base {
 
 	/**
+	 * Tackle Post Type.
+	 *
+	 * @var Tackle_Post_Type
+	 */
+	public $tackle_post_type;
+
+	/**
 	 * Initiate the plugin resources.
 	 *
 	 * Priority is 9 because WP_Customize_Widgets::register_settings() happens at
@@ -23,23 +30,34 @@ class Plugin extends Plugin_Base {
 	 */
 	public function init() {
 		$this->config = apply_filters( 'tackle_plugin_config', $this->config, $this );
+		$this->tackle_post_type = new Tackle_Post_Type( $this );
 	}
 
 	/**
-	 * Register scripts.
+	 * Register and enqueue scripts.
 	 *
-	 * @action wp_default_scripts, 11
-	 *
-	 * @param \WP_Scripts $wp_scripts Instance of \WP_Scripts.
+	 * @action wp_enqueue_scripts
 	 */
-	public function register_scripts( \WP_Scripts $wp_scripts ) {}
+	public function register_scripts() {
+		global $post;
+
+		if ( Tackle_Post_Type::SLUG === $post->post_type ) {
+			wp_register_script( 'tackle-main', plugin_dir_url( __DIR__ ) . 'js/main.js', array( 'jquery' ), 0.1 );
+			wp_enqueue_script( 'tackle-main' );
+		}
+	}
 
 	/**
-	 * Register styles.
+	 * Register and enqueue styles.
 	 *
-	 * @action wp_default_styles, 11
-	 *
-	 * @param \WP_Styles $wp_styles Instance of \WP_Styles.
+	 * @action wp_enqueue_scripts
 	 */
-	public function register_styles( \WP_Styles $wp_styles ) {}
+	public function register_styles() {
+		global $post;
+
+		if ( Tackle_Post_Type::SLUG === $post->post_type ) {
+			wp_register_style( 'tackle-styles', plugin_dir_url( __DIR__ ) . 'css/style.css' );
+			wp_enqueue_style( 'tackle-styles' );
+		}
+	}
 }

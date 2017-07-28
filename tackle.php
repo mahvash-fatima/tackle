@@ -1,17 +1,17 @@
 <?php
 /**
  * Plugin Name: Tackle
- * Plugin URI: https://github.com/xwp/wp-tackle
- * Description: ...
+ * Plugin URI: https://github.com/mahvash-fatima/tackle
+ * Description: Creates timer.
  * Version: 0.1
- * Author:  XWP
- * Author URI: https://xwp.co/
+ * Author:  Mahvash Fatima
+ * Author URI: https://github.com/mahvash-fatima/
  * License: GPLv2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: tackle
  * Domain Path: /languages
  *
- * Copyright (c) 2016 XWP (https://xwp.co/)
+ * Copyright (c) 2016 Mahvash Fatima (https://github.com/mahvash-fatima)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2 or, at
@@ -55,3 +55,26 @@ function _tackle_php_version_error() {
 function _tackle_php_version_text() {
 	return __( 'Tackle plugin error: Your version of PHP is too old to run this plugin. You must be running PHP 5.3 or higher.', 'tackle' );
 }
+
+/**
+ * Includes header for tackle templates.
+ */
+function tackle_get_header() {
+	$header_path = plugin_dir_path( __FILE__ ) . 'page-templates/header.php';
+
+	if ( file_exists( $header_path ) ) {
+	    include_once $header_path;
+	}
+}
+
+/**
+ * Includes footer for tackle templates.
+ */
+function tackle_get_footer() {
+	$footer_path = plugin_dir_path( __FILE__ ) . 'page-templates/footer.php';
+
+	if ( file_exists( $footer_path ) ) {
+		include_once $footer_path;
+	}
+}
+
