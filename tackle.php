@@ -78,3 +78,17 @@ function tackle_get_footer() {
 	}
 }
 
+/**
+ * Register Google fonts for Tackle.
+ *
+ * Create your own tackle_fonts_url() function to override in a child plugin.
+ *
+ * @since Tackle 1.0
+ *
+ * @return string Google fonts URL for the plugin.
+ */
+function tackle_fonts_url() {
+	$font_url = 'fonts.googleapis.com/css?family=Karla';
+
+	return ( substr( site_url(), 0, 8 ) == 'https://') ? 'https://' . $font_url : 'http://' . $font_url;
+}

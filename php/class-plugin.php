@@ -57,7 +57,11 @@ class Plugin extends Plugin_Base {
 
 		if ( Tackle_Post_Type::SLUG === $post->post_type ) {
 			wp_register_style( 'tackle-styles', plugin_dir_url( __DIR__ ) . 'css/style.css' );
+			wp_register_style( 'tackle-font-awesome', plugin_dir_url( __DIR__ ) . 'css/vendor/font-awesome/css/font-awesome.min.css' );
 			wp_enqueue_style( 'tackle-styles' );
+			wp_enqueue_style( 'tackle-font-awesome' );
+			wp_register_style( 'tackle-fonts', tackle_fonts_url(), array(), null );
+			wp_enqueue_style( 'tackle-fonts' );
 		}
 	}
 }
