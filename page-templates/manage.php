@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Day
+ * Template Name: Manage
  * Template Post Type: tackle
  *
  * @package Tackle

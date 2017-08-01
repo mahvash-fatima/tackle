@@ -11,6 +11,7 @@ tackle_get_header();
 
 <main id="tackle-home-main" class="tackle-home-main">
 	<div id="tackle-wrapper" class="tackle-wrapper">
+
 		<div id="tackle-home-content" class="tackle-home-content">
 			<h2 id="tackle-home-title" class="tackle-home-title">Welcome to Tackle, Mahvash!</h2>
 			<p id="tackle-home-paragraph" class="tackle-home-paragraph">Here's how to get started:</p>
@@ -26,6 +27,7 @@ tackle_get_header();
 		<aside id="tackle-home-sidebar" class="tackle-home-sidebar">
 			<i class="fa fa-clock-o" aria-hidden="true"></i>
 		</aside>
+
 	</div>
 </main>
 

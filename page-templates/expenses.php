@@ -1,0 +1,15 @@
+<?php
+/**
+ * Template Name: Expenses
+ * Template Post Type: tackle
+ *
+ * @package Tackle
+ */
+
+tackle_get_header();
+
+?>
+
+
+
+<?php tackle_get_footer(); ?>

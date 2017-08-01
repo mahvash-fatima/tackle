@@ -32,7 +32,9 @@ tackle_get_header();
 		<div id="tackle-time-section-2" class="tackle-time-section-2">
 
 			<span id="tackle-new-time-entry" class="tackle-new-time-entry">
-				<a href=""><i class="fa fa-plus-square" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-plus-square" aria-hidden="true"></i>
+					<span id="tackle-new-time-entry-text" class="tackle-new-time-entry-text">New Entry</span>
+				</a>
 			</span>
 
 			<div id="tackle-day-view-table" class="tackle-day-view-table">
