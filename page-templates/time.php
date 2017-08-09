@@ -16,15 +16,28 @@ tackle_get_header();
 
 		<div id="tackle-time-section-1" class="tackle-time-section-1">
 
-			<span id="tackle-date" class="tackle-date"><?php echo date( 'l d F' ); ?></span>
+			<div id="tackle-date" class="tackle-date">
+				<span id="tackle-day" class="tackle-day"><?php echo date( 'l' ); ?></span>
+				<span id="tackle-day-and-month" class="tackle-day-and-month"><?php echo date( 'd M' ); ?></span>
+			</div>
 
 			<div id="tackle-day-view" class="tackle-day-view">
-				<a href=""><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-				<a href="">Today</a>
-				<a href=""><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-				<a href=""><i class="fa fa-calendar" aria-hidden="true"></i></a>
-				<a href="">Day</a>
-				<a href="">Week</a>
+
+				<span id="tackle-toggle-day" class="tackle-toggle-day">
+					<a href=""><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+					<a href="">Today</a>
+					<a href=""><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</span>
+
+				<span id="tackle-calendar" class="tackle-calendar">
+					<a href=""><i class="fa fa-calendar" aria-hidden="true"></i></a>
+				</span>
+
+				<span id="tackle-day-and-week-view" class="tackle-day-and-week-view">
+					<a href="">Day</a>
+					<a href="">Week</a>
+				</span>
+
 			</div>
 
 		</div><!--#tackle-time-section-1-->
@@ -54,16 +67,19 @@ tackle_get_header();
 
 				<ul id="day-view-entry-list" class="day-view-entry-list">
 					<li>
-						<div id="tackle-project-client" class="tackle-project-client">
-							<span id="tackle-project" class="tackle-project">JavaScript</span>
-							<span id="tackle-client" class="tackle-client">Mahvash</span>
+						<div id="tackle-time-primary-container" class="tackle-time-primary-container">
+							<div id="tackle-project-client" class="tackle-project-client">
+								<span id="tackle-project" class="tackle-project">JavaScript</span>
+								<span id="tackle-client" class="tackle-client">(Mahvash)</span>
+							</div>
+
+							<div id="tackle-notes" class="tackle-notes">
+								<span id="tackle-task" class="tackle-task">Programming</span>
+								<span id="tackle-dash" class="tackle-dash">-</span>
+								<span id="tackle-notes" class="tackle-notes">Add style in main</span>
+							</div>
 						</div>
 
-						<div id="tackle-notes" class="tackle-notes">
-							<span id="tackle-task" class="tackle-task">Programming</span>
-							<span id="tackle-dash" class="tackle-dash">-</span>
-							<span id="tackle-notes" class="tackle-notes">Add style in main</span>
-						</div>
 						<div id="tackle-time-settings" class="tackle-time-settings">
 							<span id="tackle-entry-time" class="tackle-entry-time">1:43</span>
 							<span id="tackle-start" class="tackle-start"><a href=""><i class="fa fa-spin fa-circle-o-notch" aria-hidden="true"></i>Stop</a></span>
