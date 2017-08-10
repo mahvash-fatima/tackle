@@ -9,3 +9,5 @@ npm-debug.log
 # Composer
 composer.lock
 /vendor/
+
+css/sass/.sass-cache
