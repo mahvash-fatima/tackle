@@ -1,0 +1,63 @@
+//Expenses Main
+.tackle-expenses-main {
+  min-height: 600px;
+  margin-top: 40px;
+}
+
+//Add New Expense Button
+.tackle-add-new-expense {
+  i {
+	margin-right: 5px;
+  }
+}
+
+.tackle-add-new-expense {
+  a {
+	background: #01abaa;
+	padding: 10px 15px;
+	color: #ffffff;
+	border-radius: 3px;
+  }
+}
+
+.tackle-add-new-expense {
+  a {
+	&:hover {
+	  color: #ffffff;
+	}
+  }
+}
+
+.tackle-expense-container {
+  margin-top: 40px;
+  background: #e9e9e9;
+  height: 435px;
+  padding: 10px;
+  position: relative;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+
+.tackle-expense-empty-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 18px;
+  color: #777777;
+}
+
+.tackle-expense-empty-info {
+  a {
+	color: #01abaa;
+  }
+}
+
+.tackle-expense-empty-info {
+  a {
+	&:hover {
+	  color: #01abaa;
+	}
+  }
+}

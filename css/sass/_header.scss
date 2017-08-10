@@ -1,0 +1,69 @@
+//Body
+.tackle-body {
+  font-family: 'Karla', sans-serif;
+  color: #000000;
+  background: #ffffff;
+  font-size: 14px;
+}
+
+//Tackle Wrapper
+.tackle-wrapper {
+  width: 1024px;
+  margin: auto;
+}
+
+//Header
+.tackle-header {
+  background: #fedc3d;
+  overflow: hidden;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+//Primary Nav
+.tackle-primary-nav {
+  li {
+	float: left;
+  }
+}
+
+.tackle-primary-nav {
+  li {
+	&:first-child {
+	  a {
+		background: linear-gradient(rgba(255, 255, 255, 0.49), rgba(255,255,255,0.15));
+	  }
+	}
+  }
+}
+
+//Secondary Nav
+.tackle-secondary-nav {
+  .fa-angle-down {
+	margin-left: 5px;
+  }
+}
+
+.tackle-secondary-nav {
+  li {
+	float: right;
+  }
+}
+
+//Primary Nav and Secondary Nav
+.tackle-primary-nav-item-list, .tackle-secondary-nav-item-list {
+  margin: 0;
+}
+
+.tackle-primary-nav li, .tackle-secondary-nav li {
+  display: block;
+  padding: 15px 0;
+}
+
+.tackle-primary-nav li a, .tackle-secondary-nav li a {
+  color: #000000;
+  padding: 18px 10px;
+}
+
+.tackle-primary-nav li a:hover, .tackle-secondary-nav li a:hover {
+  background: linear-gradient(rgba(255, 255, 255, 0.49), rgba(255,255,255,0.15));
+}
