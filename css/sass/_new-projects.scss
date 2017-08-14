@@ -1,0 +1,17 @@
+.tackle-choose-a-client-options, .tackle-new-project-section-2 label, .tackle-new-project-section-3 label {
+  display: inline-block;
+}
+
+.tackle-new-projects-template-main {
+  @include vertical_margin( 30px );
+}
+
+.tackle-new-project-section-1,
+.tackle-new-project-section-2,
+.tackle-new-project-section-3,
+.tackle-new-project-section-4,
+.tackle-new-project-section-5,
+.tackle-new-project-section-6
+{
+  margin-bottom: 15px;
+}

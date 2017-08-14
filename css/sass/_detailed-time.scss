@@ -1,0 +1,9 @@
+.tackle-detailed-time-template-main {
+  label {
+	display: inline-block;
+  }
+}
+
+.tackle-detailed-time-template-main {
+  @include vertical_margin( 30px );
+}

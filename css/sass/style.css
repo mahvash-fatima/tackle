@@ -15,6 +15,16 @@ Custom
 Account
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
+Detailed Time
+--------------------------------------------------------------*/
+.tackle-detailed-time-template-main label {
+  display: inline-block; }
+
+.tackle-detailed-time-template-main {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+/*--------------------------------------------------------------
 Expenses
 --------------------------------------------------------------*/
 .tackle-expenses-template-main {
@@ -103,6 +113,24 @@ Manage
 --------------------------------------------------------------*/
 .tackle-manage-template-section-1, .tackle-manage-template-section-2, .tackle-manage-template-section-3 {
   margin-bottom: 30px; }
+
+/*--------------------------------------------------------------
+New Projects
+--------------------------------------------------------------*/
+.tackle-choose-a-client-options, .tackle-new-project-section-2 label, .tackle-new-project-section-3 label {
+  display: inline-block; }
+
+.tackle-new-projects-template-main {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.tackle-new-project-section-1,
+.tackle-new-project-section-2,
+.tackle-new-project-section-3,
+.tackle-new-project-section-4,
+.tackle-new-project-section-5,
+.tackle-new-project-section-6 {
+  margin-bottom: 15px; }
 
 /*--------------------------------------------------------------
 Projects
