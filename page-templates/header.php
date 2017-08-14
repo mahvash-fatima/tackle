@@ -21,24 +21,34 @@
 <body id="tackle-body" class="tackle-body">
 
 <header id="tackle-header" class="tackle-header">
-	<div id="tackle-wrapper" class="tackle-wrapper">
-		<nav id="tackle-primary-nav" class="tackle-primary-nav">
-			<ul id="tackle-primary-nav-item-list" class="tackle-primary-nav-item-list">
-				<li><a href=""><i class="fa fa-home" aria-hidden="true"></i></a></li>
-				<li><a href="">Time</a></li>
-				<li><a href="">Expenses</a></li>
-				<li><a href="">Projects</a></li>
-				<li><a href="">Reports</a></li>
-				<li><a href="">Invoices</a></li>
-				<li><a href="">Manage</a></li>
-			</ul>
-		</nav>
-		<nav id="tackle-secondary-nav" class="tackle-secondary-nav">
-			<ul id="tackle-secondary-nav-item-list" class="tackle-secondary-nav-item-list">
-				<li><a href="">Account<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
-				<li><a href="">Setting</a></li>
-				<li><a href="">Help</a></li>
-			</ul>
-		</nav>
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x">
+			<nav id="tackle-primary-nav" class="tackle-primary-nav large-8 medium-8 cell">
+				<ul class="dropdown menu" data-dropdown-menu>
+					<li><a href=""><i class="fa fa-home" aria-hidden="true"></i></a></li>
+					<li><a href="">Time</a></li>
+					<li><a href="">Expenses</a></li>
+					<li><a href="">Projects</a></li>
+					<li><a href="">Reports</a></li>
+					<li><a href="">Invoices</a></li>
+					<li><a href="">Manage</a></li>
+				</ul>
+			</nav>
+			<nav id="tackle-secondary-nav" class="tackle-secondary-nav large-4 medium-4 cell">
+				<ul class="dropdown menu" data-dropdown-menu>
+					<li><a href="">Help</a></li>
+					<li><a href="">Setting</a></li>
+					<li>
+						<a href="">Account<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<ul class="menu">
+							<li><a href="#">My Profile</a></li>
+							<li><a href="#">My Time Report</a></li>
+							<li><a href="#">Refferals</a></li>
+							<li><a href="#">Sign Out</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
 	</div>
 </header>

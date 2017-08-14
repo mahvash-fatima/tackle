@@ -67,15 +67,19 @@ class Tackle_Post_Type {
 		register_post_type( 'tackle', $args );
 
 		$this->required_pages = array(
-			'time',
+			'account',
 			'expenses',
-			'projects',
-			'reports',
+			'footer',
+			'header',
+			'help',
+			'home',
 			'invoices',
 			'manage',
-			'help',
+			'new-project',
+			'projects',
+			'reports',
 			'settings',
-			'account',
+			'time',
 		);
 
 		$this->create_pages();

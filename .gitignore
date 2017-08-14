@@ -10,4 +10,4 @@ npm-debug.log
 composer.lock
 /vendor/
 
-css/sass/.sass-cache
+css/.sass-cache

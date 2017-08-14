@@ -10,22 +10,27 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-expenses-main" class="tackle-expenses-main">
-	<div class="tackle-wrapper">
-		<div id="tackle-add-new-expense" class="tackle-add-new-expense">
-			<a href="">
-				<i class="fa fa-plus" aria-hidden="true"></i>
-				New Expense
-			</a>
-		</div>
+<main id="tackle-expenses-template-main" class="tackle-expenses-template-main">
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x">
 
-		<div id="tackle-expense-container" class="tackle-expense-container">
-			<p id="tackle-expense-empty-info" class="tackle-expense-empty-info">
-				Looks a little empty here! <br>
-				<a href="">Create your first expense</a> to get started.
-			</p>
+			<!--Section 1-->
+			<div class="tackle-expenses-template-section-1 large-12 cell">
+				<a href="" class="tackle-expenses-template-add-new-expense">
+					<i class="fa fa-plus" aria-hidden="true"></i>
+					New Expense
+				</a>
+			</div>
+
+			<!--Section 2-->
+			<div class="tackle-expenses-template-section-2 large-12 cell">
+				<p class="tackle-expenses-template-expense-info">
+					Looks a little empty here! <br>
+					<a href="" class="tackle-expenses-template-expense-link">Create your first expense</a> to get started.
+				</p>
+			</div>
 		</div>
-	</div><!--.tackle-wrapper-->
+	</div>
 </main>
 
 <?php tackle_get_footer(); ?>

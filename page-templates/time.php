@@ -10,93 +10,91 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-time-main" class="tackle-time-main" >
+<main id="tackle-time-template-main" class="tackle-time-template-main">
+	<div class="grid-container">
 
-	<div class="tackle-wrapper">
+		<!--Section 1-->
+		<div class="tackle-time-template-section-1 grid-x grid-padding-x">
 
-		<div id="tackle-time-section-1" class="tackle-time-section-1">
-
-			<div id="tackle-date" class="tackle-date">
-				<span id="tackle-day" class="tackle-day"><?php echo date( 'l' ); ?></span>
-				<span id="tackle-day-and-month" class="tackle-day-and-month"><?php echo date( 'd M' ); ?></span>
+			<!--Subsection 1a - primary-->
+			<div class="tackle-time-template-subsection-1a-primary large-6 medium-6 cell">
+				<span class="tackle-time-template-date"><?php echo date( 'l d M' ); ?></span>
 			</div>
 
-			<div id="tackle-day-view" class="tackle-day-view">
-
-				<span id="tackle-toggle-day" class="tackle-toggle-day">
-					<a href=""><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-					<a href="">Today</a>
-					<a href=""><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-				</span>
-
-				<span id="tackle-calendar" class="tackle-calendar">
-					<a href=""><i class="fa fa-calendar" aria-hidden="true"></i></a>
-				</span>
-
-				<span id="tackle-day-and-week-view" class="tackle-day-and-week-view">
-					<a href="">Day</a>
-					<a href="">Week</a>
-				</span>
-
+			<!--Subsection 1b - secondary-->
+			<div class="tackle-time-template-subsection-1b-secondary large-6 medium-6 cell">
+				<a href="" class="tackle-time-template-day-toggle-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+				<a href="" class="tackle-time-template-today">Today</a>
+				<a href="" class="tackle-time-template-day-toggle-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				<a href="" class="tackle-time-template-calendar"><i class="fa fa-calendar" aria-hidden="true"></i></a>
+				<a href="" class="tackle-time-template-day">Day</a>
+				<a href="" class="tackle-time-template-week">Week</a>
 			</div>
 
-		</div><!--#tackle-time-section-1-->
+		</div>
 
-		<div id="tackle-time-section-2" class="tackle-time-section-2">
+		<!--Section 2-->
+		<div class="tackle-time-template-section-2 grid-x grid-padding-x">
 
-			<span id="tackle-new-time-entry" class="tackle-new-time-entry">
-				<a href=""><i class="fa fa-plus-square" aria-hidden="true"></i>
-					<span id="tackle-new-time-entry-text" class="tackle-new-time-entry-text">New Entry</span>
+			<!--Subsection 2a - primary-->
+			<div class="tackle-time-template-subsection-2a-primary large-1 medium-1 cell">
+				<a href="" class="tackle-time-template-new-entry">
+					<i class="fa fa-plus-square" aria-hidden="true"></i>
+					<span>New Entry</span>
 				</a>
-			</span>
+			</div>
 
-			<div id="tackle-day-view-table" class="tackle-day-view-table">
+			<!--Subsection 2b - secondary-->
+			<div class="tackle-time-template-subsection-2b-secondary large-11 medium-11 cell">
 
-				<ul id="tackle-day-view-week-nav" class="tackle-day-view-week-nav">
-					<li class="tackle-current"><a href="">M <span class="tackle-time-count">0:00</span></a></li>
-					<li><a href="">T <span class="tackle-time-count">0:00</span></a></li>
-					<li><a href="">W <span class="tackle-time-count">0:00</span></a></li>
-					<li><a href="">Th <span class="tackle-time-count">0:00</span></a></li>
-					<li><a href="">F <span class="tackle-time-count">0:00</span></a></li>
-					<li><a href="">S <span class="tackle-time-count">0:00</span></a></li>
-					<li><a href="">Su <span class="tackle-time-count">0:00</span></a></li>
-					<li id="day-view-week-nav-total" class="day-view-week-nav-total">
-						<a href="">Total <span class="tackle-time-count">1:43</span></a>
-					</li>
-				</ul>
+				<!--Subsection 2b - subsection i-->
+				<div class="tackle-time-template-subsection-2b-subsection-i grid-x grid-padding-x">
+					<span class="large-1 medium-1 small-1 cell"><a href="">M <span>0:00</span></a></span>
+					<span class="large-1 medium-1 small-1 cell"><a href="">T <span>0:00</span></a></span>
+					<span class="large-1 medium-1 small-1 cell"><a href="">W <span>0:00</span></a></span>
+					<span class="large-1 medium-1 small-1 cell"><a href="">Th <span>0:00</span></a></span>
+					<span class="large-1 medium-1 small-1 cell"><a href="">F <span>0:00</span></a></span>
+					<span class="large-1 medium-1 small-1 cell"><a href="">S <span>0:00</span></a></span>
+					<span class="large-1 medium-1 small-1 cell"><a href="">Su <span>0:00</span></a></span>
+					<span class="large-5 medium-5 small-5 cell">
+						<a href="" class="tackle-time-template-total">Total
+							<span class="tackle-time-template-total-time">1:43</span>
+						</a>
+					</span>
+				</div>
 
-				<ul id="day-view-entry-list" class="day-view-entry-list">
-					<li>
-						<div id="tackle-time-primary-container" class="tackle-time-primary-container">
-							<div id="tackle-project-client" class="tackle-project-client">
-								<span id="tackle-project" class="tackle-project">JavaScript</span>
-								<span id="tackle-client" class="tackle-client">(Mahvash)</span>
-							</div>
+				<!--Subsection 2b - subsection ii-->
+				<div class="tackle-time-template-subsection-2b-subsection-ii grid-x grid-padding-x">
 
-							<div id="tackle-notes" class="tackle-notes">
-								<span id="tackle-task" class="tackle-task">Programming</span>
-								<span id="tackle-dash" class="tackle-dash">-</span>
-								<span id="tackle-notes" class="tackle-notes">Add style in main</span>
-							</div>
+					<!--Subsection 2b - subsection ii primary-->
+					<div class="tackle-time-template-subsection-2b-subsection-ii-primary large-6 medium-6 cell">
+						<span class="tackle-time-template-project">JavaScript</span>
+						<span class="tackle-time-template-project-client">(Mahvash)</span>
+						<div class="tackle-time-template-task-notes">
+							<span class="tackle-time-template-task">Programming</span>
+							<span class="tackle-time-template-dash">-</span>
+							<span class="tackle-time-template-task-note">Add style in main</span>
 						</div>
+					</div>
 
-						<div id="tackle-time-settings" class="tackle-time-settings">
-							<span id="tackle-entry-time" class="tackle-entry-time">1:43</span>
-							<span id="tackle-start" class="tackle-start"><a href=""><i class="fa fa-spin fa-circle-o-notch" aria-hidden="true"></i>Stop</a></span>
-							<span id="tackle-edit" class="tackle-edit"><a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></span>
-						</div>
-					</li>
-				</ul>
+					<!--Subsection 2b - subsection ii secondary-->
+					<div class="tackle-time-template-subsection-2b-subsection-ii-secondary large-6 medium-6 cell">
+						<span class="tackle-time-template-entry-time">1:43</span>
+						<span class="tackle-time-template-stop"><a href=""><i class="fa fa-spin fa-circle-o-notch" aria-hidden="true"></i>Stop</a></span>
+						<span class="tackle-time-template-entry-time-edit"><a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></span>
+					</div>
+				</div>
 
-				<div id="tackle-day-view-summary" class="tackle-day-view-summary">
-					<span id="tackle-day-view-total" class="tackle-day-view-total">Total:</span>
-					<span id="tackle-total-time" class="tackle-day-view-total-time">1:43</span>
+				<!--Subsection 2b - subsection iii-->
+				<div class="tackle-time-template-subsection-2b-subsection-iii large-12 medium-12 cell">
+					<span class="tackle-time-template-total">Total:</span>
+					<span class="tackle-time-template-total-time">1:43</span>
 				</div>
 
 			</div>
 
-		</div><!--#tackle-time-section-2-->
-	</div><!--#tackle-wrapper-->
+		</div>
+	</div>
 </main>
 
 <?php tackle_get_footer(); ?>

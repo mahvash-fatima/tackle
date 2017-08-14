@@ -1,0 +1,9 @@
+@mixin vertical_padding( $padding ) {
+  padding-top: $padding;
+  padding-bottom: $padding;
+}
+
+@mixin vertical_margin( $margin ) {
+  margin-top: $margin;
+  margin-bottom: $margin;
+}

@@ -1,6 +1,17 @@
-//Footer
 .tackle-footer {
   background: #e9e9e9;
-  padding: 20px 0;
-  text-align: center;
+  padding: 8px 0;
+  @include vertical_padding(15px);
 }
+
+.tackle-footer-primary {
+  text-align: left;
+  i {
+	font-size: 20px;
+  }
+}
+
+.tackle-footer-secondary {
+  text-align: right;
+}
+
