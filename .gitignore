@@ -11,3 +11,5 @@ composer.lock
 /vendor/
 
 css/.sass-cache
+css/sass/.sass-cache
+page-templates/remove.php
