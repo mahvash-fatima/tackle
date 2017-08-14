@@ -69,8 +69,6 @@ class Tackle_Post_Type {
 		$this->required_pages = array(
 			'account',
 			'expenses',
-			'footer',
-			'header',
 			'help',
 			'home',
 			'invoices',
