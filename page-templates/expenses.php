@@ -13,7 +13,6 @@ tackle_get_header();
 <main id="tackle-expenses-template-main" class="tackle-expenses-template-main">
 	<div class="grid-container">
 
-
 		<!--Section 1-->
 		<div class="tackle-expenses-template-section-1 grid-x grid-padding-x">
 			<div class="large-12 cell">
@@ -34,7 +33,7 @@ tackle_get_header();
 								</label>
 							</div>
 
-							<div class="large-7 medium-7 cell">
+							<div class="large-5 medium-5 cell">
 								<p>
 									<label for="tackle-project">
 										<span>Project</span>
@@ -76,6 +75,13 @@ tackle_get_header();
 
 								<span><a href="">Save Expense</a></span>
 								<span><a href="">Cancel</a></span>
+							</div>
+
+							<div class="large-2 medium-2 cell">
+								<label for="tackle-amount">
+									<span>Amount</span>
+									<textarea name="" id="tackle-amount" cols="1" rows="3" placeholder="₹">₹</textarea>
+								</label>
 							</div>
 						</div>
 					</div>
