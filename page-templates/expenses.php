@@ -90,14 +90,55 @@ tackle_get_header();
 		</div>
 
 		<!--Section 2-->
+		<div class="tackle-expenses-template-section-2 grid-x grid-padding-x">
+			<div class="large-12 cell">
+
+				<div class="grid-x grid-padding-x">
+					<div class="large-2 medium-2 cell">
+						<p>14 - 20 Aug 2017</p>
+					</div>
+					<div class="large-10 medium-10 cell">
+						<div class="grid-x grid-padding-x">
+							<div class="large-2 medium-5 cell">
+								<p><?php echo date( 'd M' ); ?></p>
+							</div>
+
+							<div class="large-6 medium-6 cell">
+								<p>
+									Tackle
+									<span>(Mahvash)</span>
+								</p>
+
+								<p>
+									<span>Billable</span>
+									<span>Other</span>
+									<span>-</span>
+									<span>Add New Expense Notes</span>
+								</p>
+							</div>
+
+							<div class="large-2 medium-2 cell">
+								<span>₹500.00</span>
+								<span><i class="fa fa-paperclip" aria-hidden="true"></i></span>
+								<span><i class="fa fa-pencil" aria-hidden="true"></i></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!--Section 3-->
 		<div class="grid-x grid-padding-x">
-			<div class="tackle-expenses-template-section-2 large-12 cell">
+			<div class="tackle-expenses-template-section-3 large-12 cell">
 				<p class="tackle-expenses-template-expense-info">
 					Looks a little empty here! <br>
 					<a href="" class="tackle-expenses-template-expense-link">Create your first expense</a> to get started.
 				</p>
 			</div>
 		</div>
+
 	</div>
 </main>
 
