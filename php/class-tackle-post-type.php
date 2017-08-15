@@ -79,6 +79,7 @@ class Tackle_Post_Type {
 			'reports',
 			'settings',
 			'time',
+			'uninvoiced',
 		);
 
 		$this->create_pages();
