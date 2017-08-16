@@ -68,6 +68,7 @@ class Tackle_Post_Type {
 
 		$this->required_pages = array(
 			'account',
+			'configure',
 			'detailed-time',
 			'expenses',
 			'expense-categories',
@@ -82,6 +83,7 @@ class Tackle_Post_Type {
 			'report',
 			'reports',
 			'reports-expense',
+			'retainer',
 			'settings',
 			'tasks',
 			'time',
