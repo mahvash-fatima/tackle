@@ -31,7 +31,7 @@ tackle_get_header();
 			<div class="tackle-invoices-template-section-2 large-12 cell">
 				<a href="" class="tackle-invoices-template-add-new-Invoice">
 					<i class="fa fa-plus" aria-hidden="true"></i>
-					New Expense
+					New Invoice
 				</a>
 			</div>
 		</div>
@@ -39,9 +39,10 @@ tackle_get_header();
 		<!--Section 3-->
 		<div class="grid-x grid-padding-x">
 			<div class="tackle-invoices-template-section-3 large-12 cell">
-				<p class="tackle-expenses-template-expense-info">
-					Looks a little empty here! <br>
-					<a href="" class="tackle-expenses-template-expense-link">Create your first expense</a> to get started.
+				<p class="tackle-invoices-template-info">
+					Create customized (and handsome!) invoices in <br>
+					under a minute. With online payment, you’ll <br>
+					get paid twice as fast.
 				</p>
 			</div>
 		</div>

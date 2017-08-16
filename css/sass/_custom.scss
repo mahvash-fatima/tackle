@@ -12,7 +12,8 @@
 .tackle-manage-template-section-1,
 .tackle-manage-template-section-2,
 .tackle-manage-template-section-3,
-.tackle-new-projects-template-main
+.tackle-new-projects-template-main,
+.tackle-report-template-main
 {
   @include vertical_margin( 30px );
 }
@@ -23,6 +24,7 @@
 .tackle-expenses-template-section-1,
 .tackle-expenses-template-section-2,
 .tackle-invoices-template-section-1,
+.tackle-invoices-template-section-2,
 .tackle-invoices-template-section-3,
 .tackle-new-client-template-section-1,
 .tackle-new-client-template-section-2,
@@ -38,7 +40,12 @@
 .tackle-tasks-template-section-1,
 .tackle-new-client-template-section-2,
 .tackle-new-client-template-section-3,
-.tackle-uninvoiced-template-section-1
+.tackle-uninvoiced-template-section-1,
+.tackle-report-template-section-1,
+.tackle-recurring-template-section-1,
+.tackle-recurring-template-section-2,
+.tackle-recurring-template-section-3,
+.tackle-recurring-template-section-4
 {
   margin-bottom: 15px;
 }

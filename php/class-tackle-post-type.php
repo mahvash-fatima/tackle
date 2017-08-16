@@ -78,6 +78,8 @@ class Tackle_Post_Type {
 			'new-client',
 			'new-project',
 			'projects',
+			'recurring',
+			'report',
 			'reports',
 			'reports-expense',
 			'settings',
