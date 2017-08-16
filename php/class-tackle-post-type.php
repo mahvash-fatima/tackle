@@ -70,6 +70,7 @@ class Tackle_Post_Type {
 			'account',
 			'detailed-time',
 			'expenses',
+			'expense-categories',
 			'help',
 			'home',
 			'invoices',

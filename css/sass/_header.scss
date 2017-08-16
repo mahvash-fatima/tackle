@@ -6,34 +6,7 @@
   font-size: 14px;
 }
 
-//Tackle Wrapper
-.tackle-wrapper {
-  width: 1024px;
-  margin: auto;
-}
-
 .tackle-header {
   border-bottom: 1px solid #c2c2c2;
 }
 
-.tackle-secondary-nav {
-  ul {
-	li {
-	  position: relative;
-	  ul {
-		position: absolute;
-		top: 37px;
-		right: 0;
-		background: #fff;
-		z-index: 1;
-		border: 1px solid #c2c2c2;
-		display: none;
-	  }
-	  &:hover {
-		ul {
-		  display: block;
-		}
-	  }
-	}
-  }
-}
