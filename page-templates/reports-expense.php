@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Detailed Time
+ * Template Name: Reports Expense
  * Template Post Type: tackle
  *
  * @package Tackle

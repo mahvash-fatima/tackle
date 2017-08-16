@@ -74,10 +74,13 @@ class Tackle_Post_Type {
 			'home',
 			'invoices',
 			'manage',
+			'new-client',
 			'new-project',
 			'projects',
 			'reports',
+			'reports-expense',
 			'settings',
+			'tasks',
 			'time',
 			'uninvoiced',
 		);

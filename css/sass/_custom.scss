@@ -2,7 +2,9 @@
 .tackle-projects-template-main,
 .tackle-time-template-main,
 .tackle-reports-template-main,
-.tackle-uninvoiced-template-main
+.tackle-uninvoiced-template-main,
+.tackle-new-client-template-main,
+.tackle-tasks-template-main
 {
   @include vertical_margin( 30px );
 }
