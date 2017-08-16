@@ -69,6 +69,7 @@ class Tackle_Post_Type {
 		$this->required_pages = array(
 			'account',
 			'configure',
+			'default-values',
 			'detailed-time',
 			'expenses',
 			'expense-categories',

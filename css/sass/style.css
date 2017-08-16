@@ -19,7 +19,8 @@ Custom
 .tackle-manage-template-section-2,
 .tackle-manage-template-section-3,
 .tackle-new-projects-template-main,
-.tackle-report-template-main {
+.tackle-report-template-main,
+.tackle-default-values-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -90,6 +91,9 @@ Account
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Configure
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Default Values
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Detailed Time
