@@ -82,6 +82,7 @@ class Tackle_Post_Type {
 			'messages',
 			'new-client',
 			'new-project',
+			'online-payment',
 			'projects',
 			'recurring',
 			'report',
