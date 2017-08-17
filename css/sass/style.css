@@ -23,7 +23,8 @@ Custom
 .tackle-default-values-template-main,
 .tackle-appearance-template-main,
 .tackle-messages-template-main,
-.tackle-translations-template-main {
+.tackle-translations-template-main,
+.tackle-item-types-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -163,6 +164,9 @@ Invoices
 .tackle-invoices-template-section-3 {
   text-align: center; }
 
+/*--------------------------------------------------------------
+Item Types
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Manage
 --------------------------------------------------------------*/

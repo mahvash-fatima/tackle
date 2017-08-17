@@ -77,6 +77,7 @@ class Tackle_Post_Type {
 			'help',
 			'home',
 			'invoices',
+			'item-types',
 			'manage',
 			'messages',
 			'new-client',
