@@ -90,6 +90,7 @@ class Tackle_Post_Type {
 			'settings',
 			'tasks',
 			'time',
+			'translations',
 			'uninvoiced',
 		);
 

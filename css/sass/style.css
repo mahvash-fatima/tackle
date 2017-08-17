@@ -22,7 +22,8 @@ Custom
 .tackle-report-template-main,
 .tackle-default-values-template-main,
 .tackle-appearance-template-main,
-.tackle-messages-template-main {
+.tackle-messages-template-main,
+.tackle-translations-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -234,6 +235,9 @@ Time
 .tackle-new-time-entry-text {
   display: block; }
 
+/*--------------------------------------------------------------
+Translations
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Uninvoiced
 --------------------------------------------------------------*/
