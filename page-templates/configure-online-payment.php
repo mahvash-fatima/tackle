@@ -75,6 +75,11 @@ tackle_get_header();
 										<span>Offers a cheaper alternative with a flat fee of just $0.50 per transaction. Note that your client must have a PayPal account and both of you must have US accounts. Credit cards are not accepted—payments must be made by PayPal balance or eCheck.</span>
 									</label>
 								</p>
+
+								<p>
+									<span><a href="">Save</a></span>
+									<span><a href="">Cancel</a></span>
+								</p>
 							</div>
 						</div>
 
