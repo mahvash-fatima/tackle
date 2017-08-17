@@ -21,7 +21,8 @@ Custom
 .tackle-new-projects-template-main,
 .tackle-report-template-main,
 .tackle-default-values-template-main,
-.tackle-appearance-template-main {
+.tackle-appearance-template-main,
+.tackle-messages-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -163,6 +164,9 @@ Invoices
 
 /*--------------------------------------------------------------
 Manage
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Messages
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 New Client

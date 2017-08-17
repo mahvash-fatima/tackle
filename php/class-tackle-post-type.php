@@ -78,6 +78,7 @@ class Tackle_Post_Type {
 			'home',
 			'invoices',
 			'manage',
+			'messages',
 			'new-client',
 			'new-project',
 			'projects',
