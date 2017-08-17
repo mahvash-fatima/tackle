@@ -70,6 +70,7 @@ class Tackle_Post_Type {
 			'account',
 			'appearance',
 			'configure',
+			'configure-online-payment',
 			'default-values',
 			'detailed-time',
 			'expenses',
