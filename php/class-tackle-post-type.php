@@ -68,6 +68,7 @@ class Tackle_Post_Type {
 
 		$this->required_pages = array(
 			'account',
+			'appearance',
 			'configure',
 			'default-values',
 			'detailed-time',
