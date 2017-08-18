@@ -69,6 +69,7 @@ class Tackle_Post_Type {
 		$this->required_pages = array(
 			'account',
 			'appearance',
+			'authorized-oauth2-api-clients',
 			'configure',
 			'configure-online-payment',
 			'default-values',
