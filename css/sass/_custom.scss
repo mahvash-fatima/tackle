@@ -25,7 +25,8 @@
 .tackle-upgrade-template-main,
 .tackle-delete-account-template-main,
 .tackle-edit-preference-template-main,
-.tackle-authorized-oauth2-api-clients-template-main
+.tackle-authorized-oauth2-api-clients-template-main,
+.tackle-create-new-oauth2-api-client-template-main
 {
   @include vertical_margin( 30px );
 }

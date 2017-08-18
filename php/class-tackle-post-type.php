@@ -72,6 +72,7 @@ class Tackle_Post_Type {
 			'authorized-oauth2-api-clients',
 			'configure',
 			'configure-online-payment',
+			'create-new-oauth2-api-client',
 			'default-values',
 			'delete-account',
 			'detailed-time',
