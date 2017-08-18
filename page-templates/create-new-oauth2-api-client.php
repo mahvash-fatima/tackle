@@ -50,7 +50,7 @@ tackle_get_header();
 					<div class="large-3 medium-3 cell">
 						<p>
 							<label for="tackle-app-name">
-								<input type="text" id="tackle-app-name">
+								<input type="text" id="tackle-app-name" placeholder="My Cool App">
 							</label>
 						</p>
 					</div>
@@ -64,7 +64,7 @@ tackle_get_header();
 					<div class="large-3 medium-3 cell">
 						<p>
 							<label for="tackle-website-url">
-								<input type="url" id="tackle-website-url">
+								<input type="url" id="tackle-website-url" placeholder="http://mycoolapp.com/widget">
 								<span>Where people can learn more about the application.</span>
 							</label>
 						</p>
@@ -79,7 +79,7 @@ tackle_get_header();
 					<div class="large-3 medium-3 cell">
 						<p>
 							<label for="tackle-redirect-url">
-								<input type="url" id="tackle-redirect-url">
+								<input type="url" id="tackle-redirect-url" placeholder="http://mycoolapp.com/oauth-successful-redirect">
 								<span>The URL your app will accept redirects to after your users confirm access.</span>
 							</label>
 						</p>
