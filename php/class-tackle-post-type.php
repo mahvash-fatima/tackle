@@ -95,6 +95,7 @@ class Tackle_Post_Type {
 			'time',
 			'translations',
 			'uninvoiced',
+			'upgrade',
 		);
 
 		$this->create_pages();
