@@ -27,7 +27,8 @@ Custom
 .tackle-item-types-template-main,
 .tackle-online-payment-template-main,
 .tackle-configure-online-payment-template-main,
-.tackle-settings-template-main {
+.tackle-settings-template-main,
+.tackle-upgrade-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -264,6 +265,12 @@ Uninvoiced
   text-align: right; }
 
 .tackle-uninvoiced-template-section-3 {
+  text-align: center; }
+
+/*--------------------------------------------------------------
+Upgrade
+--------------------------------------------------------------*/
+.tackle-upgrade-template-main {
   text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
