@@ -28,7 +28,8 @@ Custom
 .tackle-online-payment-template-main,
 .tackle-configure-online-payment-template-main,
 .tackle-settings-template-main,
-.tackle-upgrade-template-main {
+.tackle-upgrade-template-main,
+.tackle-delete-account-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -108,6 +109,9 @@ Configure Online Payment
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Default Values
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Delete Account
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Detailed Time

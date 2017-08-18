@@ -72,6 +72,7 @@ class Tackle_Post_Type {
 			'configure',
 			'configure-online-payment',
 			'default-values',
+			'delete-account',
 			'detailed-time',
 			'expenses',
 			'expense-categories',
