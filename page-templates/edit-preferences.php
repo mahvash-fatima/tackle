@@ -408,6 +408,11 @@ tackle_get_header();
 								<span>Gray</span>
 							</label>
 						</p>
+						
+						<p>
+							<a href="">Save Preferences</a>
+							<a href="">Cancel</a>
+						</p>
 					</div>
 				</div>
 
