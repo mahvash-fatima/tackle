@@ -29,7 +29,8 @@ Custom
 .tackle-configure-online-payment-template-main,
 .tackle-settings-template-main,
 .tackle-upgrade-template-main,
-.tackle-delete-account-template-main {
+.tackle-delete-account-template-main,
+.tackle-edit-preference-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -119,6 +120,9 @@ Detailed Time
 .tackle-detailed-time-template-main label {
   display: inline-block; }
 
+/*--------------------------------------------------------------
+Edit Preferences
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Expenses
 --------------------------------------------------------------*/

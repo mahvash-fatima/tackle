@@ -74,6 +74,7 @@ class Tackle_Post_Type {
 			'default-values',
 			'delete-account',
 			'detailed-time',
+			'edit-preferences',
 			'expenses',
 			'expense-categories',
 			'help',
