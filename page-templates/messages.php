@@ -21,13 +21,13 @@ tackle_get_header();
 					<div class="large-3 medium-3 cell">
 						<nav>
 							<ul class="vertical menu">
-								<li><a href="#">Company Information</a></li>
-								<li><a href="#">Default Values</a></li>
-								<li><a href="#">Appearance</a></li>
-								<li><a href="#">Message</a></li>
-								<li><a href="#">Translations</a></li>
-								<li><a href="#">Item Types</a></li>
-								<li><a href="#">Online Payment</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/configure'; ?>">Company Information</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/default-values'; ?>">Default Values</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/appearance'; ?>">Appearance</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/messages'; ?>">Message</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/translations'; ?>">Translations</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/item-types'; ?>">Item Types</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/online-payment'; ?>">Online Payment</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -126,14 +126,35 @@ tackle_get_header();
 						</div>
 
 						<div class="grid-x grid-padding-x">
+							<div class="large-12 cell">
+								<h5>Thank-you Message</h5>
+								<p>After you record a payment for an invoice,you may send a thank-you email to your client through Harvest.</p>
+							</div>
+						</div>
+
+						<div class="grid-x grid-padding-x">
+							<div class="large-3 medium-3 cell">
+								<p>Subject</p>
+							</div>
+
+							<div class="large-7 medium-7 cell">
+								<p>
+									<label for="tackle-subject">
+										<input type="text" id="tackle-subject" value="Thank you for your payment">
+									</label>
+								</p>
+							</div>
+						</div>
+
+						<div class="grid-x grid-padding-x">
 							<div class="large-3 medium-3 cell">
 								<p>Body</p>
 							</div>
 
 							<div class="large-7 medium-7 cell">
 								<p>
-									<label for="tackle-messages-template-body-textarea">
-										<textarea name="" id="tackle-messages-template-body-textarea" cols="30" rows="10">---------------------------------------------Invoice Summary---------------------------------------------Invoice ID: %invoice_id%Issue Date: %invoice_issue_date%Client: %invoice_client%P.O. Number: %invoice_po_number%Amount: %invoice_amount%Due: %invoice_due_date%The detailed invoice is attached as a PDF.Thank you!---------------------------------------------</textarea>
+									<label for="tackle-thank-you-message-template-body-textarea">
+										<textarea name="" id="tackle-thank-you-message-template-body-textarea" cols="30" rows="10">---------------------------------------------Invoice Summary---------------------------------------------Invoice ID: %invoice_id%Issue Date: %invoice_issue_date%Client: %invoice_client%P.O. Number: %invoice_po_number%Amount: %invoice_amount%Total Payment: %invoice_payment_total%Thank you for your business.---------------------------------------------</textarea>
 									</label>
 								</p>
 							</div>

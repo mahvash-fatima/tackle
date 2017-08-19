@@ -21,13 +21,13 @@ tackle_get_header();
 					<div class="large-3 medium-3 cell">
 						<nav>
 							<ul class="vertical menu">
-								<li><a href="#">Company Information</a></li>
-								<li><a href="#">Default Values</a></li>
-								<li><a href="#">Appearance</a></li>
-								<li><a href="#">Message</a></li>
-								<li><a href="#">Translations</a></li>
-								<li><a href="#">Item Types</a></li>
-								<li><a href="#">Online Payment</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/configure'; ?>">Company Information</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/default-values'; ?>">Default Values</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/appearance'; ?>">Appearance</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/messages'; ?>">Message</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/translations'; ?>">Translations</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/item-types'; ?>">Item Types</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/online-payment'; ?>">Online Payment</a></li>
 							</ul>
 						</nav>
 					</div>

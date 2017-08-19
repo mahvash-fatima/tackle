@@ -29,9 +29,9 @@ tackle_get_header();
 		<div class="tackle-manage-template-section-1 grid-x grid-padding-x">
 			<nav class="large-12 cell">
 				<ul class="menu">
-					<li><a href="">Clients</a></li>
-					<li><a href="">Task</a></li>
-					<li><a href="">Expense Categories</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/clients'; ?>">Clients</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/tasks'; ?>">Task</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/expense-categories'; ?>">Expense Categories</a></li>
 				</ul>
 			</nav>
 		</div>
