@@ -34,7 +34,8 @@
 .tackle-import-from-freshbooks-template-main,
 .tackle-my-profile-template-main,
 .tackle-your-projects-template-main,
-.tackle-security-template-main
+.tackle-security-template-main,
+.tackle-clients-template-main
 {
   @include vertical_margin( 30px );
 }
@@ -80,7 +81,8 @@
 .tackle-projects-template-section-2a-nav,
 .tackle-reports-template-subsection-2b-secondary,
 .tackle-reports-template-nav-export,
-.tackle-uninvoiced-export-nav
+.tackle-uninvoiced-export-nav,
+.tackle-clients-template-nav
 {
   ul {
 	li {

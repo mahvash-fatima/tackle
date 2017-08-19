@@ -88,6 +88,7 @@ class Tackle_Post_Type {
 			'import-timesheets-from-csv',
 			'invoices',
 			'item-types',
+			'clients',
 			'manage',
 			'messages',
 			'my-profile',

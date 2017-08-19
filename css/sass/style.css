@@ -40,7 +40,8 @@ Custom
 .tackle-import-from-freshbooks-template-main,
 .tackle-my-profile-template-main,
 .tackle-your-projects-template-main,
-.tackle-security-template-main {
+.tackle-security-template-main,
+.tackle-clients-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -83,14 +84,16 @@ Custom
 .tackle-projects-template-section-2a-nav ul li,
 .tackle-reports-template-subsection-2b-secondary ul li,
 .tackle-reports-template-nav-export ul li,
-.tackle-uninvoiced-export-nav ul li {
+.tackle-uninvoiced-export-nav ul li,
+.tackle-clients-template-nav ul li {
   position: relative; }
   .tackle-secondary-nav ul li ul,
   .tackle-projects-table-actions-nav ul li ul,
   .tackle-projects-template-section-2a-nav ul li ul,
   .tackle-reports-template-subsection-2b-secondary ul li ul,
   .tackle-reports-template-nav-export ul li ul,
-  .tackle-uninvoiced-export-nav ul li ul {
+  .tackle-uninvoiced-export-nav ul li ul,
+  .tackle-clients-template-nav ul li ul {
     position: absolute;
     top: 37px;
     right: 0;
@@ -103,7 +106,8 @@ Custom
   .tackle-projects-template-section-2a-nav ul li:hover ul,
   .tackle-reports-template-subsection-2b-secondary ul li:hover ul,
   .tackle-reports-template-nav-export ul li:hover ul,
-  .tackle-uninvoiced-export-nav ul li:hover ul {
+  .tackle-uninvoiced-export-nav ul li:hover ul,
+  .tackle-clients-template-nav ul li:hover ul {
     display: block; }
 
 /*--------------------------------------------------------------
@@ -115,6 +119,12 @@ Appearance
 /*--------------------------------------------------------------
 Authorized OAuth2 API Clients
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Clients
+--------------------------------------------------------------*/
+.tackle-clients-template-nav {
+  display: inline-block; }
+
 /*--------------------------------------------------------------
 Configure
 --------------------------------------------------------------*/
