@@ -39,7 +39,8 @@ Custom
 .tackle-import-expenses-from-csv-template-main,
 .tackle-import-from-freshbooks-template-main,
 .tackle-my-profile-template-main,
-.tackle-your-projects-template-main {
+.tackle-your-projects-template-main,
+.tackle-security-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -274,6 +275,9 @@ Retainer
 
 /*--------------------------------------------------------------
 Settings
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Security
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Time

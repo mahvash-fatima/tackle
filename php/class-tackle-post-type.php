@@ -101,6 +101,7 @@ class Tackle_Post_Type {
 			'reports-expense',
 			'retainer',
 			'settings',
+			'security',
 			'tasks',
 			'time',
 			'translations',
