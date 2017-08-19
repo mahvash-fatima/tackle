@@ -104,6 +104,11 @@ Import Expenses From CSV
 @import "import-expenses-from-csv";
 
 /*--------------------------------------------------------------
+Import from FreshBooks
+--------------------------------------------------------------*/
+@import "import-from-freshbooks";
+
+/*--------------------------------------------------------------
 Import Data into Tackle
 --------------------------------------------------------------*/
 @import "import-timesheets-from-csv";
