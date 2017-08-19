@@ -29,36 +29,36 @@ tackle_get_header();
 							<span>Track your time with this simple, intuitive tool from Harvest. This is included by default, and cannot be disabled.</span>
 						</p>
 						<p>
-							<label for="tackle-timesheets">
-								<input type="checkbox" id="tackle-timesheets">
+							<label for="tackle-team">
+								<input type="checkbox" id="tackle-team">
 								<span>Team</span><br>
 							</label>
 							<span>Report on and manage the people in your account, and set and track capacity.</span>
 						</p>
 						<p>
-							<label for="tackle-timesheets">
-								<input type="checkbox" id="tackle-timesheets">
+							<label for="tackle-expense-tracking">
+								<input type="checkbox" id="tackle-expense-tracking">
 								<span>Expense Tracking</span><br>
 							</label>
 							<span>Track expenses towards projects, the same way you track hours. Enter expenses in the forms under Timesheets > Expenses; and customize expense categories via Manage > Expense Categories.</span>
 						</p>
 						<p>
-							<label for="tackle-timesheets">
-								<input type="checkbox" id="tackle-timesheets">
+							<label for="tackle-invoices">
+								<input type="checkbox" id="tackle-invoices">
 								<span>Invoices</span><br>
 							</label>
 							<span>Bill your clients for all of the hours and expenses tracked in Harvest with our simple yet powerful invoicing feature. The invoices overview lets you quickly see the status of invoices still not sent or overdue, and you can customize your invoice with your logo and preferred phrasing. Send invoices and reminder emails, and receive payments via PayPal, all within Harvest.</span>
 						</p>
 						<p>
-							<label for="tackle-timesheets">
-								<input type="checkbox" id="tackle-timesheets">
+							<label for="tackle-estimates">
+								<input type="checkbox" id="tackle-estimates">
 								<span>Estimates</span><br>
 							</label>
 							<span>Create and send estimates and proposals to clients, and then easily turn accepted estimates into invoices. The estimates feature works just like the invoicing feature does, and you can attach additional files to each estimate. Your client will be able to access the estimate via a private URL, where they can view, accept, or decline the estimate online.</span>
 						</p>
 						<p>
-							<label for="tackle-timesheets">
-								<input type="checkbox" id="tackle-timesheets">
+							<label for="tackle-client-dashboard">
+								<input type="checkbox" id="tackle-client-dashboard">
 								<span>Client Dashboard</span><br>
 							</label>
 							<span>Allow your clients to view all of their unpaid invoices and recent payments in a single view. Each client will have a unique URL used to access the page, and it can also be accessed from the top of each invoice. Currently, the Client Dashboard is English-only and does not support translations.</span>
