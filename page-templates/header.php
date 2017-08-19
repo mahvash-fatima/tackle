@@ -42,7 +42,7 @@
 						<a href="">Account<i class="fa fa-angle-down" aria-hidden="true"></i></a>
 						<ul class="menu">
 							<li><a href="<?php echo home_url() . '/tackle/my-profile'; ?>">My Profile</a></li>
-							<li><a href="<?php echo home_url() . '/tackle/my-time-reports'; ?>">My Time Report</a></li>
+							<li><a href="<?php echo home_url() . '/tackle/my-time-report'; ?>">My Time Report</a></li>
 							<li><a href="<?php echo home_url() . '/tackle/referrals'; ?>">Refferals</a></li>
 							<li><a href="<?php echo home_url() . '/tackle/signout'; ?>">Sign Out</a></li>
 						</ul>

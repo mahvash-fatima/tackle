@@ -12,6 +12,18 @@ tackle_get_header();
 
 <main id="tackle-detailed-time-template-main" class="tackle-detailed-time-template-main">
 	<div class="grid-container">
+
+		<div class="tackle-reports-template-section-1 grid-x grid-padding-x">
+			<nav class="large-12 cell">
+				<ul class="menu">
+					<li><a href="<?php echo home_url() . '/tackle/my-time-report'; ?>">Time</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/detailed-time'; ?>">Detailed Time</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/uninvoiced'; ?>">Uninvoiced</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/reports-expense'; ?>">Expenses</a></li>
+				</ul>
+			</nav>
+		</div>
+
 		<div class="grid-x grid-padding-x">
 
 			<!--Section 1-->

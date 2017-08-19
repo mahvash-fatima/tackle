@@ -77,11 +77,11 @@ tackle_get_header();
 					<div class="large-9">
 						<p>
 							<label for="tackle-invite-by-email">
-								<textarea name="" id="tackle-invite-by-email" cols="30" rows="3"></textarea>
+								<textarea name="" id="tackle-invite-by-email" cols="30" rows="4"></textarea>
 							</label>
 							<span>Separate email addresses with a comma.</span>
-							<a href="">Send Invitation</a>
 						</p>
+						<p><a href="">Send Invitations</a></p>
 					</div>
 				</div>
 

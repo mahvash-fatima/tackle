@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: My Time Reports
+ * Template Name: My Time Report
  * Template Post Type: tackle
  *
  * @package Tackle
@@ -17,10 +17,10 @@ tackle_get_header();
 			<div class="tackle-reports-template-section-1 grid-x grid-padding-x">
 				<nav class="large-12 cell">
 					<ul class="menu">
-						<li><a href="">Time</a></li>
-						<li><a href="">Detailed Time</a></li>
-						<li><a href="">Uninvoiced</a></li>
-						<li><a href="">Expenses</a></li>
+						<li><a href="<?php echo home_url() . '/tackle/my-time-report'; ?>">Time</a></li>
+						<li><a href="<?php echo home_url() . '/tackle/detailed-time'; ?>">Detailed Time</a></li>
+						<li><a href="<?php echo home_url() . '/tackle/uninvoiced'; ?>">Uninvoiced</a></li>
+						<li><a href="<?php echo home_url() . '/tackle/reports-expense'; ?>">Expenses</a></li>
 					</ul>
 				</nav>
 			</div>

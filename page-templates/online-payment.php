@@ -74,7 +74,7 @@ tackle_get_header();
 
 							<div class="large-3 medium-3 cell">
 								<span>
-									<a href="">
+									<a href="<?php echo home_url() . '/tackle/configure-online-payment'; ?>">
 										Activate
 										<i class="fa fa-angle-right" aria-hidden="true"></i>
 									</a>

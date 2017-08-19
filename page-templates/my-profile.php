@@ -32,9 +32,9 @@ tackle_get_header();
 
 						<nav>
 							<ul class="vertical menu">
-								<li><a href="#">Project</a></li>
-								<li><a href="#">Basic Info</a></li>
-								<li><a href="#">Security</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/your-projects'; ?>">Projects</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/my-profile'; ?>">Basic Info</a></li>
+								<li><a href="<?php echo home_url() . '/tackle/security'; ?>">Security</a></li>
 							</ul>
 						</nav>
 					</div>
