@@ -106,6 +106,7 @@ class Tackle_Post_Type {
 			'translations',
 			'uninvoiced',
 			'upgrade',
+			'your-projects',
 		);
 
 		$this->create_pages();
