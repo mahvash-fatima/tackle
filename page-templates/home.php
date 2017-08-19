@@ -20,7 +20,7 @@ tackle_get_header();
 
 				<ul class="tackle-home-template-get-started-list">
 					<li><a href=""><i class="fa fa-play-circle-o" aria-hidden="true"></i>Learn the basics of time tracking</a></li>
-					<li><a href=""><i class="fa fa-file-text-o" aria-hidden="true"></i>Create a project</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/new-project'; ?>"><i class="fa fa-file-text-o" aria-hidden="true"></i>Create a project</a></li>
 					<li><a href=""><i class="fa fa-clock-o" aria-hidden="true"></i>Track your first hour</a></li>
 					<li><a href=""><i class="fa fa-mobile" aria-hidden="true"></i>Get the apps and browser extension</a></li>
 				</ul>

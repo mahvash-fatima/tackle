@@ -25,13 +25,13 @@
 		<div class="grid-x grid-padding-x">
 			<nav id="tackle-primary-nav" class="tackle-primary-nav large-8 medium-8 cell">
 				<ul class="dropdown menu" data-dropdown-menu>
-					<li><a href=""><i class="fa fa-home" aria-hidden="true"></i></a></li>
-					<li><a href="">Time</a></li>
-					<li><a href="">Expenses</a></li>
-					<li><a href="">Projects</a></li>
-					<li><a href="">Reports</a></li>
-					<li><a href="">Invoices</a></li>
-					<li><a href="">Manage</a></li>
+					<li><a href="<?php echo home_url() . '/tackle'; ?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+					<li><a href="<?php echo home_url() . '/tackle/time'; ?>">Time</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/expenses'; ?>">Expenses</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/projects'; ?>">Projects</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/reports'; ?>">Reports</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/invoices'; ?>">Invoices</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/manage'; ?>">Manage</a></li>
 				</ul>
 			</nav>
 			<nav id="tackle-secondary-nav" class="tackle-secondary-nav large-4 medium-4 cell">
@@ -41,10 +41,10 @@
 					<li>
 						<a href="">Account<i class="fa fa-angle-down" aria-hidden="true"></i></a>
 						<ul class="menu">
-							<li><a href="#">My Profile</a></li>
-							<li><a href="#">My Time Report</a></li>
-							<li><a href="#">Refferals</a></li>
-							<li><a href="#">Sign Out</a></li>
+							<li><a href="<?php echo home_url() . '/tackle/my-profile'; ?>">My Profile</a></li>
+							<li><a href="<?php echo home_url() . '/tackle/my-time-reports'; ?>">My Time Report</a></li>
+							<li><a href="<?php echo home_url() . '/tackle/referrals'; ?>">Refferals</a></li>
+							<li><a href="<?php echo home_url() . '/tackle/signout'; ?>">Sign Out</a></li>
 						</ul>
 					</li>
 				</ul>

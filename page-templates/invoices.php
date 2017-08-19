@@ -17,11 +17,11 @@ tackle_get_header();
 		<div class="tackle-invoices-template-section-1 grid-x grid-padding-x">
 			<nav class="large-12 cell">
 				<ul class="menu">
-					<li><a href="">Overview</a></li>
-					<li><a href="">Report</a></li>
-					<li><a href="">Recurring</a></li>
-					<li><a href="">Retainers</a></li>
-					<li><a href="">Configure</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/invoices'; ?>">Overview</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/report'; ?>">Report</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/recurring'; ?>">Recurring</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/retainers'; ?>">Retainers</a></li>
+					<li><a href="<?php echo home_url() . '/tackle/configure'; ?>">Configure</a></li>
 				</ul>
 			</nav>
 		</div>

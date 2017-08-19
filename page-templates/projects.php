@@ -17,7 +17,7 @@ tackle_get_header();
 		<div class="tackle-projects-template-section-1 grid-x grid-padding-x">
 			<!--Subsection 1a - primary-->
 			<span class="tackle-projects-template-subsection-1a-primary large-9 medium-9 cell">
-				<a href="" class="tackle-add-new-project-button"><i class="fa fa-plus" aria-hidden="true"></i>New Project</a>
+				<a href="<?php echo home_url() . '/tackle/new-project'; ?>" class="tackle-add-new-project-button"><i class="fa fa-plus" aria-hidden="true"></i>New Project</a>
 				<a href="" class="tackle-import-button">Import</a>
 				<a href="" class="tackle-export-button">Export</a>
 			</span>

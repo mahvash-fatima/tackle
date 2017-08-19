@@ -25,7 +25,7 @@ tackle_get_header();
 			<div class="tackle-report-template-section-2 large-12 cell">
 				<p class="tackle-report-template-info">
 					There are no invoices in your account.<br>
-					<a href="">Create your first invoice now.</a>
+					<a href="<?php echo home_url() . '/tackle/invoices'; ?>">Create your first invoice now.</a>
 				</p>
 			</div>
 		</div>
