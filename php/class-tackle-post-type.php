@@ -90,6 +90,7 @@ class Tackle_Post_Type {
 			'item-types',
 			'manage',
 			'messages',
+			'my-profile',
 			'new-client',
 			'new-project',
 			'online-payment',

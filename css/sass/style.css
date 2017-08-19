@@ -37,7 +37,8 @@ Custom
 .tackle-import-data-into-tackle-template-main,
 .tackle-import-timesheets-from-csv-template-main,
 .tackle-import-expenses-from-csv-template-main,
-.tackle-import-from-freshbooks-template-main {
+.tackle-import-from-freshbooks-template-main,
+.tackle-my-profile-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -215,6 +216,9 @@ Manage
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Messages
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+My Profile Page Template Structure
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 New Client
