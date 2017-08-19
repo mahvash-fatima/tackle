@@ -34,7 +34,8 @@ Custom
 .tackle-authorized-oauth2-api-clients-template-main,
 .tackle-create-new-oauth2-api-client-template-main,
 .tackle-customize-modules-template-main,
-.tackle-import-data-into-tackle-template-main {
+.tackle-import-data-into-tackle-template-main,
+.tackle-import-timesheets-from-csv-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -187,14 +188,17 @@ Home
   text-align: right; }
 
 /*--------------------------------------------------------------
+Import Data into Tackle
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Import Data into Tackle
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
 Invoices
 --------------------------------------------------------------*/
 .tackle-invoices-template-section-3 {
   text-align: center; }
 
-/*--------------------------------------------------------------
-Import Data into Tackle
---------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Item Types
 --------------------------------------------------------------*/
