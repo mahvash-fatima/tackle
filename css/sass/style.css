@@ -41,7 +41,8 @@ Custom
 .tackle-my-profile-template-main,
 .tackle-your-projects-template-main,
 .tackle-security-template-main,
-.tackle-clients-template-main {
+.tackle-clients-template-main,
+.tackle-manage-tasks-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -225,6 +226,9 @@ Item Types
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Manage
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Manage Tasks
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Messages

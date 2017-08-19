@@ -90,6 +90,7 @@ class Tackle_Post_Type {
 			'item-types',
 			'clients',
 			'manage',
+			'manage-tasks',
 			'messages',
 			'my-profile',
 			'new-client',
