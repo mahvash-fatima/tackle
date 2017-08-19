@@ -83,6 +83,7 @@ class Tackle_Post_Type {
 			'help',
 			'home',
 			'import-data-into-tackle',
+			'import-expenses-from-csv',
 			'import-timesheets-from-csv',
 			'invoices',
 			'item-types',
