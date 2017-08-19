@@ -82,6 +82,7 @@ class Tackle_Post_Type {
 			'expense-categories',
 			'help',
 			'home',
+			'import-data-into-tackle',
 			'invoices',
 			'item-types',
 			'manage',

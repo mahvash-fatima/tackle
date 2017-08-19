@@ -33,7 +33,8 @@ Custom
 .tackle-edit-preference-template-main,
 .tackle-authorized-oauth2-api-clients-template-main,
 .tackle-create-new-oauth2-api-client-template-main,
-.tackle-customize-modules-template-main {
+.tackle-customize-modules-template-main,
+.tackle-import-data-into-tackle-template-main {
   margin-top: 30px;
   margin-bottom: 30px; }
 
@@ -191,6 +192,9 @@ Invoices
 .tackle-invoices-template-section-3 {
   text-align: center; }
 
+/*--------------------------------------------------------------
+Import Data into Tackle
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 Item Types
 --------------------------------------------------------------*/
