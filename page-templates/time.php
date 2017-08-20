@@ -33,6 +33,41 @@ tackle_get_header();
 
 		</div>
 
+		<div class="grid-x grid-padding-x">
+			<div class="tackle-add-new-time-entry-modal-box large-3 cell">
+				<i id="tackle-add-new-time-entry-close-button" class="fa fa-times" aria-hidden="true"></i>
+				<p>Model Box</p>
+				<h5>New Time Entry</h5>
+				<span><?php echo date( 'l d M' ); ?></span>
+				<p>Project / Task</p>
+				<p>
+					<label for="tackle-project">
+						<select name="" id="tackle-project">
+							<option value="">Tackle</option>
+						</select>
+					</label>
+				</p>
+				<p>
+					<label for="tackle-task">
+						<select name="" id="tackle-task">
+							<option value="">Programming</option>
+						</select>
+					</label>
+				</p>
+				<p>
+					<label for="tackle-start-time">
+						<input type="text" id="tackle-start-time">
+						<span>to</span>
+						<input type="text" id="tackle-start-time">
+					</label>
+				</p>
+				<p>
+					<a href="">Start Timer</a>
+					<a href="">Cancel</a>
+				</p>
+			</div>
+		</div>
+
 		<!--Section 2-->
 		<div class="tackle-time-template-section-2 grid-x grid-padding-x">
 
@@ -41,13 +76,6 @@ tackle_get_header();
 				<div class="tackle-add-new-time-entry-button-container">
 					<i class="fa fa-plus-square" aria-hidden="true"></i>
 					<button id="tackle-add-new-time-entry-button">New Entry</button>
-				</div>
-
-				<div class="tackle-add-new-time-entry-model-box">
-					<div class="tackle-add-new-time-entry-model-content">
-						<i id="tackle-add-new-time-entry-close-button fa fa-times" aria-hidden="true"></i>
-						<p>Model Box</p>
-					</div>
 				</div>
 			</div>
 
