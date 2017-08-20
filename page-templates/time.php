@@ -38,10 +38,17 @@ tackle_get_header();
 
 			<!--Subsection 2a - primary-->
 			<div class="tackle-time-template-subsection-2a-primary large-1 medium-1 cell">
-				<a href="" class="tackle-time-template-new-entry">
+				<div class="tackle-add-new-time-entry-button-container">
 					<i class="fa fa-plus-square" aria-hidden="true"></i>
-					<span>New Entry</span>
-				</a>
+					<button id="tackle-add-new-time-entry-button">New Entry</button>
+				</div>
+
+				<div class="tackle-add-new-time-entry-model-box">
+					<div class="tackle-add-new-time-entry-model-content">
+						<i id="tackle-add-new-time-entry-close-button fa fa-times" aria-hidden="true"></i>
+						<p>Model Box</p>
+					</div>
+				</div>
 			</div>
 
 			<!--Subsection 2b - secondary-->

@@ -42,12 +42,12 @@ class Plugin extends Plugin_Base {
 		global $post;
 
 		if ( Tackle_Post_Type::SLUG === $post->post_type ) {
-			wp_register_script( 'tackle-main', plugin_dir_url( __DIR__ ) . 'js/main.js', array( 'jquery' ), 0.1 );
+			wp_register_script( 'tackle-main', plugin_dir_url( __DIR__ ) . 'js/main.js', array( 'jquery' ), null, true );
 			wp_register_script( 'tackle-foundation-jquery', plugin_dir_url( __DIR__ ) . 'js/vendor/foundation/jquery.js', array( 'jquery' ), 0.1 );
 			wp_register_script( 'tackle-what-input', plugin_dir_url( __DIR__ ) . 'js/vendor/foundation/what-input.js', array( 'jquery' ), 0.1 );
 			wp_register_script( 'tackle-foundation', plugin_dir_url( __DIR__ ) . 'js/vendor/foundation/foundation.js', array( 'jquery' ), 0.1 );
 			wp_register_script( 'tackle-foundation-app', plugin_dir_url( __DIR__ ) . 'js/vendor/foundation/app.js', array( 'jquery' ), 0.1 );
-			wp_enqueue_script( 'tackle-main' );
+			wp_enqueue_script( 'tackle-main', 20, 1 );
 			wp_enqueue_script( 'tackle-foundation-jquery' );
 			wp_enqueue_script( 'tackle-what-input' );
 			wp_enqueue_script( 'tackle-foundation' );
