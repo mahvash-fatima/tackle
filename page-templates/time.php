@@ -8,6 +8,8 @@
 
 tackle_get_header();
 
+tackle_functions();
+
 ?>
 
 <main id="tackle-time-template-main" class="tackle-time-template-main">
@@ -40,31 +42,39 @@ tackle_get_header();
 				<h5>New Time Entry</h5>
 				<span><?php echo date( 'l d M' ); ?></span>
 				<p>Project / Task</p>
-				<p>
-					<label for="tackle-project">
-						<select name="" id="tackle-project">
-							<option value="">Tackle</option>
-						</select>
-					</label>
-				</p>
-				<p>
-					<label for="tackle-task">
-						<select name="" id="tackle-task">
-							<option value="">Programming</option>
-						</select>
-					</label>
-				</p>
-				<p>
-					<label for="tackle-start-time">
-						<input type="text" id="tackle-start-time">
-						<span>to</span>
-						<input type="text" id="tackle-start-time">
-					</label>
-				</p>
-				<p>
-					<a href="">Start Timer</a>
-					<a href="">Cancel</a>
-				</p>
+
+				<form action="" method="post">
+					<p>
+						<label for="tackle-project">
+							<select id="tackle-project" name="tackle-project">
+								<option value="Tackle">Tackle</option>
+							</select>
+						</label>
+					</p>
+					<p>
+						<label for="tackle-task">
+							<select id="tackle-task" name="tackle-task">
+								<option value="Programming">Programming</option>
+							</select>
+						</label>
+					</p>
+					<p>
+						<label for="tackle-notes">
+							<textarea name="tackle-notes" id="tackle-notes" cols="30" rows="3"></textarea>
+						</label>
+					</p>
+					<p>
+						<label for="tackle-time-start">
+							<input type="text" id="tackle-time-start" name="tackle-time-start">
+							<span>to</span>
+							<input type="text" id="tackle-time-stop" name="tackle-time-stop">
+						</label>
+					</p>
+					<p>
+						<input type="submit" value="Start Timer">
+						<button type="reset">Cancel</button>
+					</p>
+				</form>
 			</div>
 		</div>
 
@@ -93,7 +103,16 @@ tackle_get_header();
 					<span class="large-1 medium-1 small-1 cell"><a href="">Su <span>0:00</span></a></span>
 					<span class="large-5 medium-5 small-5 cell">
 						<a href="" class="tackle-time-template-total">Total
-							<span class="tackle-time-template-total-time">1:43</span>
+							<span class="tackle-time-template-total-time">
+						<?php
+					    $time_start = $_POST['tackle-time-start'];
+					    $time_stop = $_POST['tackle-time-stop'];
+
+					    if ( isset( $time_start ) && isset( $time_stop ) ) {
+							add_new_time_entry();
+						}
+						?>
+							</span>
 						</a>
 					</span>
 				</div>
@@ -102,18 +121,24 @@ tackle_get_header();
 				<div class="tackle-time-template-subsection-2b-subsection-ii grid-x grid-padding-x">
 
 					<!--Subsection 2b - subsection ii primary-->
-					<div class="tackle-time-template-subsection-2b-subsection-ii-primary large-6 medium-6 cell">
-						<span class="tackle-time-template-project">JavaScript</span>
+					<div class="tackle-time-template-subsection-2b-subsection-ii-primary large-1 medium-1 cell">
+						<p class="tackle-time-start"><?php echo $_POST['tackle-time-start']; ?></p>
+						<p class="tackle-time-stop"><?php echo $_POST['tackle-time-stop']; ?></p>
+					</div>
+
+					<!--Subsection 2b - subsection ii secondary-->
+					<div class="tackle-time-template-subsection-2b-subsection-ii-secondary large-5 medium-5 cell">
+						<span class="tackle-time-template-project"><?php echo $_POST['tackle-project']; ?></span>
 						<span class="tackle-time-template-project-client">(Mahvash)</span>
 						<div class="tackle-time-template-task-notes">
-							<span class="tackle-time-template-task">Programming</span>
+							<span class="tackle-time-template-task"><?php echo $_POST['tackle-task']; ?></span>
 							<span class="tackle-time-template-dash">-</span>
-							<span class="tackle-time-template-task-note">Add style in main</span>
+							<span class="tackle-time-template-task-note"><?php echo $_POST['tackle-notes']; ?></span>
 						</div>
 					</div>
 
 					<!--Subsection 2b - subsection ii secondary-->
-					<div class="tackle-time-template-subsection-2b-subsection-ii-secondary large-6 medium-6 cell">
+					<div class="tackle-time-template-subsection-2b-subsection-ii-tertiary large-6 medium-6 cell">
 						<span class="tackle-time-template-entry-time">1:43</span>
 						<span class="tackle-time-template-stop"><a href=""><i class="fa fa-spin fa-circle-o-notch" aria-hidden="true"></i>Stop</a></span>
 						<span class="tackle-time-template-entry-time-edit"><a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></span>
@@ -123,7 +148,16 @@ tackle_get_header();
 				<!--Subsection 2b - subsection iii-->
 				<div class="tackle-time-template-subsection-2b-subsection-iii large-12 medium-12 cell">
 					<span class="tackle-time-template-total">Total:</span>
-					<span class="tackle-time-template-total-time">1:43</span>
+					<span class="tackle-time-template-total-time">
+					<?php
+					$time_start = $_POST['tackle-time-start'];
+					$time_stop = $_POST['tackle-time-stop'];
+
+					if ( isset( $time_start ) && isset( $time_stop ) ) {
+						add_new_time_entry();
+					}
+					?>
+					</span>
 				</div>
 
 			</div>

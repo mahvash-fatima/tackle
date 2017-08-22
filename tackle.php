@@ -68,6 +68,17 @@ function tackle_get_header() {
 }
 
 /**
+ * Includes functions for tackle templates.
+ */
+function tackle_functions() {
+	$functions_path = plugin_dir_path( __FILE__ ) . 'php/functions.php';
+
+	if ( file_exists( $functions_path ) ) {
+		include_once $functions_path;
+	}
+}
+
+/**
  * Includes footer for tackle templates.
  */
 function tackle_get_footer() {
