@@ -9,6 +9,7 @@
 
 		init: function() {
 			this.addNewTimeEntry();
+			this.addNewTimeEntryLi();
 		},
 
 		addNewTimeEntry: function() {
@@ -30,6 +31,15 @@
 				modal.css( 'display', 'none' );
 			} );
 
+		},
+
+		addNewTimeEntryLi: function() {
+			var timeEntryList = $( '.tackle-time-template-subsection-2b-subsection-ii' ),
+				timeEntryContainer = $( '.tackle-time-template-subsection-2b-secondary' ),
+				startTimerButton = $( '#tackle-start-timer' );
+			startTimerButton.on( 'click', function() {
+				timeEntryList.clone().appendTo( timeEntryContainer );
+			} );
 		}
 
 	};

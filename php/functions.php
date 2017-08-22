@@ -16,4 +16,16 @@ function add_new_time_entry() {
 	echo sprintf( '%02d:%02d', floor( $total_time / 60 ), $total_time % 60 );
 }
 
+/**
+ * Total Time
+ */
+function total_time() {
+	$time_start = $_POST['tackle-time-start'];
+	$time_stop = $_POST['tackle-time-stop'];
+
+	if ( isset( $time_start ) && isset( $time_stop ) ) {
+		add_new_time_entry();
+	}
+}
+
 ?>

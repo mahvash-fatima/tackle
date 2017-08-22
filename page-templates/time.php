@@ -71,7 +71,7 @@ tackle_functions();
 						</label>
 					</p>
 					<p>
-						<input type="submit" value="Start Timer">
+						<input type="submit" value="Start Timer" id="tackle-start-timer">
 						<button type="reset">Cancel</button>
 					</p>
 				</form>
@@ -94,27 +94,14 @@ tackle_functions();
 
 				<!--Subsection 2b - subsection i-->
 				<div class="tackle-time-template-subsection-2b-subsection-i grid-x grid-padding-x">
-					<span class="large-1 medium-1 small-1 cell"><a href="">M <span>0:00</span></a></span>
+					<span class="large-1 medium-1 small-1 cell"><a href="">M <span><?php total_time(); ?></span></a></span>
 					<span class="large-1 medium-1 small-1 cell"><a href="">T <span>0:00</span></a></span>
 					<span class="large-1 medium-1 small-1 cell"><a href="">W <span>0:00</span></a></span>
 					<span class="large-1 medium-1 small-1 cell"><a href="">Th <span>0:00</span></a></span>
 					<span class="large-1 medium-1 small-1 cell"><a href="">F <span>0:00</span></a></span>
 					<span class="large-1 medium-1 small-1 cell"><a href="">S <span>0:00</span></a></span>
 					<span class="large-1 medium-1 small-1 cell"><a href="">Su <span>0:00</span></a></span>
-					<span class="large-5 medium-5 small-5 cell">
-						<a href="" class="tackle-time-template-total">Total
-							<span class="tackle-time-template-total-time">
-						<?php
-					    $time_start = $_POST['tackle-time-start'];
-					    $time_stop = $_POST['tackle-time-stop'];
-
-					    if ( isset( $time_start ) && isset( $time_stop ) ) {
-							add_new_time_entry();
-						}
-						?>
-							</span>
-						</a>
-					</span>
+					<span class="large-5 medium-5 small-5 cell"><a href="" class="tackle-time-template-total">Total<span class="tackle-time-template-total-time"><?php total_time(); ?></span></a></span>
 				</div>
 
 				<!--Subsection 2b - subsection ii-->
@@ -139,7 +126,7 @@ tackle_functions();
 
 					<!--Subsection 2b - subsection ii secondary-->
 					<div class="tackle-time-template-subsection-2b-subsection-ii-tertiary large-6 medium-6 cell">
-						<span class="tackle-time-template-entry-time">1:43</span>
+						<span class="tackle-time-template-entry-time"><?php total_time(); ?></span>
 						<span class="tackle-time-template-stop"><a href=""><i class="fa fa-spin fa-circle-o-notch" aria-hidden="true"></i>Stop</a></span>
 						<span class="tackle-time-template-entry-time-edit"><a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></span>
 					</div>
@@ -148,16 +135,7 @@ tackle_functions();
 				<!--Subsection 2b - subsection iii-->
 				<div class="tackle-time-template-subsection-2b-subsection-iii large-12 medium-12 cell">
 					<span class="tackle-time-template-total">Total:</span>
-					<span class="tackle-time-template-total-time">
-					<?php
-					$time_start = $_POST['tackle-time-start'];
-					$time_stop = $_POST['tackle-time-stop'];
-
-					if ( isset( $time_start ) && isset( $time_stop ) ) {
-						add_new_time_entry();
-					}
-					?>
-					</span>
+					<span class="tackle-time-template-total-time"><?php total_time(); ?></span>
 				</div>
 
 			</div>
