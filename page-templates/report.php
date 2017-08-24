@@ -10,11 +10,11 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-report-template-main" class="tackle-report-template-main">
+<main id="tackle-report-template-main" class="tackle-report-template-main margin-vertical">
 	<div class="grid-container">
 
 		<!--Section 1-->
-		<div class="tackle-report-template-section-1 grid-x grid-padding-x">
+		<div class="tackle-report-template-section-1 margin-bottom grid-x grid-padding-x">
 			<div class="large-12 cell">
 				<h2>Invoice Report</h2>
 			</div>

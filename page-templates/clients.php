@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-clients-template-main" class="tackle-clients-template-main">
+<main id="tackle-clients-template-main" class="tackle-clients-template-main margin-vertical">
 	<div class="grid-container">
 
 		<div class="grid-x grid-padding-x">
@@ -31,7 +31,7 @@ tackle_get_header();
 				<span><a href=""><i class="fa fa-plus" aria-hidden="true"></i>New Clients</a></span>
 				<span><a href=""><i class="fa fa-plus" aria-hidden="true"></i>Add Contact</a></span>
 
-				<div class="tackle-clients-template-nav">
+				<div class="tackle-clients-template-nav nav-style">
 					<ul class="dropdown menu" data-dropdown-menu>
 						<li>
 							<a href="">Import/Export<i class="fa fa-angle-down" aria-hidden="true"></i></a>

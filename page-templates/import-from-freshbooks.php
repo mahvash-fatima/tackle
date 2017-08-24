@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-import-from-freshbooks-template-main" class="tackle-import-from-freshbooks-template-main">
+<main id="tackle-import-from-freshbooks-template-main" class="tackle-import-from-freshbooks-template-main margin-vertical">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 

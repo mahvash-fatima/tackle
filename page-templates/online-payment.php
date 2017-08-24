@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-online-payment-template-main" class="tackle-online-payment-template-main">
+<main id="tackle-online-payment-template-main" class="tackle-online-payment-template-main margin-vertical">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 

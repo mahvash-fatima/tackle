@@ -34,7 +34,7 @@
 					<li><a href="<?php echo home_url() . '/tackle/manage'; ?>">Manage</a></li>
 				</ul>
 			</nav>
-			<nav id="tackle-secondary-nav" class="tackle-secondary-nav large-4 medium-4 cell">
+			<nav id="tackle-secondary-nav" class="tackle-secondary-nav nav-style large-4 medium-4 cell">
 				<ul class="dropdown menu" data-dropdown-menu>
 					<li><a href="">Help</a></li>
 					<li><a href="">Setting</a></li>

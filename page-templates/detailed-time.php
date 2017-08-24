@@ -10,10 +10,10 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-detailed-time-template-main" class="tackle-detailed-time-template-main">
+<main id="tackle-detailed-time-template-main" class="tackle-detailed-time-template-main margin-vertical">
 	<div class="grid-container">
 
-		<div class="tackle-reports-template-section-1 grid-x grid-padding-x">
+		<div class="tackle-reports-template-section-1 margin-bottom grid-x grid-padding-x">
 			<nav class="large-12 cell">
 				<ul class="menu">
 					<li><a href="<?php echo home_url() . '/tackle/my-time-report'; ?>">Time</a></li>

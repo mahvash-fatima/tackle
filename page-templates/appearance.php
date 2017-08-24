@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-appearance-template-main" class="tackle-appearance-template-main">
+<main id="tackle-appearance-template-main" class="tackle-appearance-template-main margin-vertical">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 

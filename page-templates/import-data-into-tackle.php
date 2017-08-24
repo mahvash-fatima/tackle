@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-import-data-into-tackle-template-main" class="tackle-import-data-into-tackle-template-main">
+<main id="tackle-import-data-into-tackle-template-main" class="tackle-import-data-into-tackle-template-main margin-vertical">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 

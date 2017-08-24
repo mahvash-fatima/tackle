@@ -8,18 +8,18 @@
 
 tackle_get_header();
 ?>
-<main id="tackle-new-projects-template-main" class="tackle-new-projects-template-main">
+<main id="tackle-new-projects-template-main" class="tackle-new-projects-template-main margin-vertical">
 	<div class="grid-container">
 
 		<!--Section 1-->
-		<div class="tackle-new-project-section-1 grid-x grid-padding-x">
+		<div class="tackle-new-project-section-1 margin-bottom grid-x grid-padding-x">
 			<div class="large-12 cell">
 				<h2>New Project</h2>
 			</div>
 		</div>
 
 		<!--Section 2-->
-		<div class="tackle-new-project-section-2 grid-x grid-padding-x">
+		<div class="tackle-new-project-section-2 margin-bottom grid-x grid-padding-x">
 			<div class="large-12 cell">
 
 				<div class="grid-x grid-padding-x">
@@ -152,7 +152,7 @@ tackle_get_header();
 		</div>
 
 		<!--Section 3-->
-		<div class="tackle-new-project-section-3 grid-x grid-padding-x">
+		<div class="tackle-new-project-section-3 margin-bottom grid-x grid-padding-x">
 			<div class="large-12 cell">
 				<div class="grid-x grid-padding-x">
 					<div class="large-10 medium-10 cell">
@@ -225,7 +225,7 @@ tackle_get_header();
 		</div>
 
 		<!--Section-4-->
-		<div class="tackle-new-project-section-4 grid-x grid-padding-x">
+		<div class="tackle-new-project-section-4 margin-bottom grid-x grid-padding-x">
 			<div class="large-12 cell">
 				<div class="grid-x grid-padding-x">
 					<div class="large-10 medium-10 cell">
@@ -245,7 +245,7 @@ tackle_get_header();
 		</div>
 
 		<!--Section-5-->
-		<div class="tackle-new-project-section-5 grid-x grid-padding-x">
+		<div class="tackle-new-project-section-5 margin-bottom grid-x grid-padding-x">
 			<div class="large-12 cell">
 				<div class="grid-x grid-padding-x">
 					<div class="large-10 medium-10 cell">
@@ -263,7 +263,7 @@ tackle_get_header();
 		</div>
 
 		<!--Section-6-->
-		<div class="tackle-new-project-section-5 grid-x grid-padding-x">
+		<div class="tackle-new-project-section-6 margin-bottom grid-x grid-padding-x">
 			<div class="large-12 cell">
 				<span>
 					Your whole team’s on this project.

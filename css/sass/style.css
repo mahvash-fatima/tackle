@@ -4,98 +4,22 @@ Mixins
 /*--------------------------------------------------------------
 Custom
 --------------------------------------------------------------*/
-.tackle-home-template-main,
-.tackle-projects-template-main,
-.tackle-time-template-main,
-.tackle-reports-template-main,
-.tackle-uninvoiced-template-main,
-.tackle-new-client-template-main,
-.tackle-tasks-template-main,
-.tackle-expense-categories-template-main,
-.tackle-detailed-time-template-main,
-.tackle-expenses-template-main,
-.tackle-home-template-main,
-.tackle-manage-template-section-1,
-.tackle-manage-template-section-2,
-.tackle-manage-template-section-3,
-.tackle-new-projects-template-main,
-.tackle-report-template-main,
-.tackle-default-values-template-main,
-.tackle-appearance-template-main,
-.tackle-messages-template-main,
-.tackle-translations-template-main,
-.tackle-item-types-template-main,
-.tackle-online-payment-template-main,
-.tackle-configure-online-payment-template-main,
-.tackle-settings-template-main,
-.tackle-upgrade-template-main,
-.tackle-delete-account-template-main,
-.tackle-edit-preference-template-main,
-.tackle-authorized-oauth2-api-clients-template-main,
-.tackle-create-new-oauth2-api-client-template-main,
-.tackle-customize-modules-template-main,
-.tackle-import-data-into-tackle-template-main,
-.tackle-import-timesheets-from-csv-template-main,
-.tackle-import-expenses-from-csv-template-main,
-.tackle-import-from-freshbooks-template-main,
-.tackle-my-profile-template-main,
-.tackle-your-projects-template-main,
-.tackle-security-template-main,
-.tackle-clients-template-main,
-.tackle-manage-tasks-template-main,
-.tackle-referrals-template-main {
+.tackle-body {
+  font-family: 'Karla', sans-serif;
+  color: #000000;
+  background: #ffffff;
+  font-size: 14px; }
+
+.margin-vertical {
   margin-top: 30px;
   margin-bottom: 30px; }
 
-.tackle-expense-categories-template-section-1,
-.tackle-expense-categories-template-section-2,
-.tackle-expense-categories-template-section-3,
-.tackle-expenses-template-section-1,
-.tackle-expenses-template-section-2,
-.tackle-invoices-template-section-1,
-.tackle-invoices-template-section-2,
-.tackle-invoices-template-section-3,
-.tackle-new-client-template-section-1,
-.tackle-new-client-template-section-2,
-.tackle-new-project-section-1,
-.tackle-new-project-section-2,
-.tackle-new-project-section-3,
-.tackle-new-project-section-4,
-.tackle-new-project-section-5,
-.tackle-new-project-section-6,
-.tackle-reports-template-section-1,
-.tackle-reports-template-section-2,
-.tackle-reports-template-reports-summary,
-.tackle-tasks-template-section-1,
-.tackle-new-client-template-section-2,
-.tackle-new-client-template-section-3,
-.tackle-uninvoiced-template-section-1,
-.tackle-report-template-section-1,
-.tackle-recurring-template-section-1,
-.tackle-recurring-template-section-2,
-.tackle-recurring-template-section-3,
-.tackle-recurring-template-section-4,
-.tackle-retainer-template-section-1,
-.tackle-retainer-template-section-2,
-.tackle-retainer-template-section-3,
-.tackle-retainer-template-section-4 {
+.margin-bottom {
   margin-bottom: 15px; }
 
-.tackle-secondary-nav ul li,
-.tackle-projects-table-actions-nav ul li,
-.tackle-projects-template-section-2a-nav ul li,
-.tackle-reports-template-subsection-2b-secondary ul li,
-.tackle-reports-template-nav-export ul li,
-.tackle-uninvoiced-export-nav ul li,
-.tackle-clients-template-nav ul li {
+.nav-style ul li {
   position: relative; }
-  .tackle-secondary-nav ul li ul,
-  .tackle-projects-table-actions-nav ul li ul,
-  .tackle-projects-template-section-2a-nav ul li ul,
-  .tackle-reports-template-subsection-2b-secondary ul li ul,
-  .tackle-reports-template-nav-export ul li ul,
-  .tackle-uninvoiced-export-nav ul li ul,
-  .tackle-clients-template-nav ul li ul {
+  .nav-style ul li ul {
     position: absolute;
     top: 37px;
     right: 0;
@@ -103,13 +27,7 @@ Custom
     z-index: 1;
     border: 1px solid #c2c2c2;
     display: none; }
-  .tackle-secondary-nav ul li:hover ul,
-  .tackle-projects-table-actions-nav ul li:hover ul,
-  .tackle-projects-template-section-2a-nav ul li:hover ul,
-  .tackle-reports-template-subsection-2b-secondary ul li:hover ul,
-  .tackle-reports-template-nav-export ul li:hover ul,
-  .tackle-uninvoiced-export-nav ul li:hover ul,
-  .tackle-clients-template-nav ul li:hover ul {
+  .nav-style ul li:hover ul {
     display: block; }
 
 /*--------------------------------------------------------------
@@ -155,6 +73,61 @@ Detailed Time
 Edit Preferences
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
+Elements
+--------------------------------------------------------------*/
+.tackle-body h1, .tackle-body h2, .tackle-body h3, .tackle-body h4, .tackle-body h5, .tackle-body h6 {
+  margin: 0 0 7px 0;
+  font-family: inherit;
+  color: inherit; }
+.tackle-body h1 {
+  font-size: 30px; }
+.tackle-body h2 {
+  font-size: 28px; }
+.tackle-body h3 {
+  font-size: 26px; }
+.tackle-body h4 {
+  font-size: 24px; }
+.tackle-body h5 {
+  font-size: 22px; }
+.tackle-body h6 {
+  font-size: 20px; }
+.tackle-body p {
+  margin-bottom: 7px; }
+.tackle-body ul {
+  margin: 0;
+  list-style: none; }
+.tackle-body a {
+  color: inherit; }
+  .tackle-body a:hover {
+    color: inherit; }
+  .tackle-body a:focus {
+    color: inherit; }
+.tackle-body button,
+.tackle-body input[type='submit'],
+.tackle-body input[type='button'] {
+  font-family: inherit;
+  background: #ffffff;
+  color: #000000;
+  padding: 8px 10px;
+  text-transform: uppercase;
+  border: 2px solid;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 12px; }
+  .tackle-body button:hover,
+  .tackle-body input[type='submit']:hover,
+  .tackle-body input[type='button']:hover {
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #000000; }
+  .tackle-body button:focus,
+  .tackle-body input[type='submit']:focus,
+  .tackle-body input[type='button']:focus {
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #000000; }
+
+/*--------------------------------------------------------------
 Expenses
 --------------------------------------------------------------*/
 .tackle-expenses-template-section-3 {
@@ -183,12 +156,6 @@ Footer
 /*--------------------------------------------------------------
 Header
 --------------------------------------------------------------*/
-.tackle-body {
-  font-family: 'Karla', sans-serif;
-  color: #000000;
-  background: #ffffff;
-  font-size: 14px; }
-
 .tackle-header {
   border-bottom: 1px solid #c2c2c2; }
 

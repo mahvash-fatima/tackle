@@ -26,7 +26,7 @@ tackle_get_header();
 	<div class="grid-container">
 
 		<!--Section 1-->
-		<div class="tackle-manage-template-section-1 grid-x grid-padding-x">
+		<div class="tackle-manage-template-section-1 grid-x grid-padding-x margin-vertical">
 			<nav class="large-12 cell">
 				<ul class="menu">
 					<li><a href="<?php echo home_url() . '/tackle/clients'; ?>">Clients</a></li>
@@ -38,7 +38,7 @@ tackle_get_header();
 
 		<!--Section 2-->
 		<div class="grid-x grid-padding-x">
-			<div class="tackle-manage-template-section-2 large-12 cell">
+			<div class="tackle-manage-template-section-2 margin-vertical large-12 cell">
 				<a href="" class="tackle-manage-template-add-new-client">
 					<i class="fa fa-plus" aria-hidden="true"></i>
 					New Client
@@ -56,7 +56,7 @@ tackle_get_header();
 
 		<!--Section 3-->
 		<div class="grid-x grid-padding-x">
-			<div class="tackle-manage-template-section-3 large-12 cell">
+			<div class="tackle-manage-template-section-3 margin-vertical large-12 cell">
 				<p class="tackle-manage-template-client">
 					Mahvash
 					<a href="" class="tackle-manage-template-edit-link">Edit</a>

@@ -10,12 +10,12 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-new-client-template-main" class="tackle-new-client-template-main">
+<main id="tackle-new-client-template-main" class="tackle-new-client-template-main margin-vertical">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 
 			<!--Section 1-->
-			<div class="tackle-new-client-template-section-1 grid-x grid-padding-x">
+			<div class="tackle-new-client-template-section-1 margin-bottom grid-x grid-padding-x">
 				<nav class="large-12 cell">
 					<ul class="menu">
 						<li><a href="">Client</a></li>

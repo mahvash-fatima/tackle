@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-authorized-oauth2-api-clients-template-main" class="tackle-authorized-oauth2-api-clients-template-main">
+<main id="tackle-authorized-oauth2-api-clients-template-main" class="tackle-authorized-oauth2-api-clients-template-main margin-vertical">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 

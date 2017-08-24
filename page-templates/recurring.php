@@ -14,7 +14,7 @@ tackle_get_header();
 	<div class="grid-container">
 
 		<!--Section 1-->
-		<div class="tackle-invoices-template-section-1 grid-x grid-padding-x">
+		<div class="tackle-invoices-template-section-1 margin-bottom grid-x grid-padding-x">
 			<nav class="large-12 cell">
 				<ul class="menu">
 					<li><a href="<?php echo home_url() . '/tackle/invoices'; ?>">Overview</a></li>
@@ -27,7 +27,7 @@ tackle_get_header();
 		</div>
 
 		<!--Section 2-->
-		<div class="tackle-recurring-template-section-2 grid-x grid-padding-x">
+		<div class="tackle-recurring-template-section-2 margin-bottom grid-x grid-padding-x">
 			<div class="large-12 cell">
 				<h2>Recurring Invoices</h2>
 			</div>
@@ -35,7 +35,7 @@ tackle_get_header();
 
 		<!--Section 3-->
 		<div class="grid-x grid-padding-x">
-			<div class="tackle-recurring-template-section-3 large-12 cell">
+			<div class="tackle-recurring-template-section-3 margin-bottom large-12 cell">
 				<a href="" class="tackle-recurring-template-add-new-recurring-invoice">
 					<i class="fa fa-plus" aria-hidden="true"></i>
 					New Recurring Invoice
@@ -45,7 +45,7 @@ tackle_get_header();
 
 		<!--Section 4-->
 		<div class="grid-x grid-padding-x">
-			<div class="tackle-recurring-template-section-4 large-12 cell">
+			<div class="tackle-recurring-template-section-4 margin-bottom large-12 cell">
 				<p class="tackle-recurring-template-info">
 					There are no recurring invoices in your account.<br>
 					<a href="">Create your first recurring invoice now.</a>

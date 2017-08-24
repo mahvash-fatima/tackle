@@ -38,7 +38,7 @@ tackle_get_header();
 			</div>
 
 			<!--Subsection 2b secondary-->
-			<nav class="tackle-reports-template-subsection-2b-secondary large-2 medium-2 cell">
+			<nav class="tackle-reports-template-subsection-2b-secondary nav-style large-2 medium-2 cell">
 				<ul class="dropdown menu" data-dropdown-menu>
 					<li>
 						<a href="">Week<i class="fa fa-angle-down" aria-hidden="true"></i></a>

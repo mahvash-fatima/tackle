@@ -10,11 +10,11 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-expenses-template-main" class="tackle-expenses-template-main">
+<main id="tackle-expenses-template-main" class="tackle-expenses-template-main margin-vertical">
 	<div class="grid-container">
 
 		<!--Section 1-->
-		<div class="tackle-expenses-template-section-1 grid-x grid-padding-x">
+		<div class="tackle-expenses-template-section-1 margin-bottom grid-x grid-padding-x">
 			<div class="large-12 cell">
 
 				<div class="grid-x grid-padding-x">
@@ -90,7 +90,7 @@ tackle_get_header();
 		</div>
 
 		<!--Section 2-->
-		<div class="tackle-expenses-template-section-2 grid-x grid-padding-x">
+		<div class="tackle-expenses-template-section-2 margin-bottom grid-x grid-padding-x">
 			<div class="large-12 cell">
 
 				<div class="grid-x grid-padding-x">

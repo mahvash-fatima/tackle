@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-referrals-template-main" class="tackle-referrals-template-main">
+<main id="tackle-referrals-template-main" class="tackle-referrals-template-main margin-vertical">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 

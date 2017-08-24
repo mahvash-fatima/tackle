@@ -12,7 +12,7 @@ tackle_functions();
 
 ?>
 
-<main id="tackle-time-template-main" class="tackle-time-template-main">
+<main id="tackle-time-template-main" class="tackle-time-template-main margin-vertical">
 	<div class="grid-container">
 
 		<!--Section 1-->

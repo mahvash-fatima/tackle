@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-projects-template-main" class="tackle-projects-template-main">
+<main id="tackle-projects-template-main" class="tackle-projects-template-main margin-vertical">
 	<div class="grid-container">
 
 		<!--Section 1-->
@@ -33,7 +33,7 @@ tackle_get_header();
 
 				<!--Subsection 2a-->
 				<div class="tackle-projects-template-section-2a large-12 cell">
-					<nav class="tackle-projects-template-section-2a-nav">
+					<nav class="tackle-projects-template-section-2a-nav nav-style">
 						<ul class="dropdown menu" data-dropdown-menu>
 							<li>
 								<a href="" class="tackle-projects-table-data-actions">
@@ -71,7 +71,7 @@ tackle_get_header();
 							<td><a href="">Remaining</a></td>
 							<td><a href="">Remaining Percent</a></td>
 							<td><a href="">Costs</a></td>
-							<td class="tackle-projects-table-actions-nav">
+							<td class="tackle-projects-table-actions-nav nav-style">
 								<ul class="dropdown menu" data-dropdown-menu>
 									<li>
 										<a href="" class="tackle-projects-table-data-actions">

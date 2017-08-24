@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-upgrade-template-main" class="tackle-upgrade-template-main">
+<main id="tackle-upgrade-template-main" class="tackle-upgrade-template-main margin-vertical">
 	<div class="grid-container">
 
 		<!--Section 1-->

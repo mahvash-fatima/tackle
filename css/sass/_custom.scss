@@ -1,91 +1,23 @@
-.tackle-home-template-main,
-.tackle-projects-template-main,
-.tackle-time-template-main,
-.tackle-reports-template-main,
-.tackle-uninvoiced-template-main,
-.tackle-new-client-template-main,
-.tackle-tasks-template-main,
-.tackle-expense-categories-template-main,
-.tackle-detailed-time-template-main,
-.tackle-expenses-template-main,
-.tackle-home-template-main,
-.tackle-manage-template-section-1,
-.tackle-manage-template-section-2,
-.tackle-manage-template-section-3,
-.tackle-new-projects-template-main,
-.tackle-report-template-main,
-.tackle-default-values-template-main,
-.tackle-appearance-template-main,
-.tackle-messages-template-main,
-.tackle-translations-template-main,
-.tackle-item-types-template-main,
-.tackle-online-payment-template-main,
-.tackle-configure-online-payment-template-main,
-.tackle-settings-template-main,
-.tackle-upgrade-template-main,
-.tackle-delete-account-template-main,
-.tackle-edit-preference-template-main,
-.tackle-authorized-oauth2-api-clients-template-main,
-.tackle-create-new-oauth2-api-client-template-main,
-.tackle-customize-modules-template-main,
-.tackle-import-data-into-tackle-template-main,
-.tackle-import-timesheets-from-csv-template-main,
-.tackle-import-expenses-from-csv-template-main,
-.tackle-import-from-freshbooks-template-main,
-.tackle-my-profile-template-main,
-.tackle-your-projects-template-main,
-.tackle-security-template-main,
-.tackle-clients-template-main,
-.tackle-manage-tasks-template-main,
-.tackle-referrals-template-main
-{
-  @include vertical_margin( 30px );
+//Body Style
+.tackle-body {
+  font-family: 'Karla', sans-serif;
+  color: #000000;
+  background: #ffffff;
+  font-size: 14px;
 }
 
-.tackle-expense-categories-template-section-1,
-.tackle-expense-categories-template-section-2,
-.tackle-expense-categories-template-section-3,
-.tackle-expenses-template-section-1,
-.tackle-expenses-template-section-2,
-.tackle-invoices-template-section-1,
-.tackle-invoices-template-section-2,
-.tackle-invoices-template-section-3,
-.tackle-new-client-template-section-1,
-.tackle-new-client-template-section-2,
-.tackle-new-project-section-1,
-.tackle-new-project-section-2,
-.tackle-new-project-section-3,
-.tackle-new-project-section-4,
-.tackle-new-project-section-5,
-.tackle-new-project-section-6,
-.tackle-reports-template-section-1,
-.tackle-reports-template-section-2,
-.tackle-reports-template-reports-summary,
-.tackle-tasks-template-section-1,
-.tackle-new-client-template-section-2,
-.tackle-new-client-template-section-3,
-.tackle-uninvoiced-template-section-1,
-.tackle-report-template-section-1,
-.tackle-recurring-template-section-1,
-.tackle-recurring-template-section-2,
-.tackle-recurring-template-section-3,
-.tackle-recurring-template-section-4,
-.tackle-retainer-template-section-1,
-.tackle-retainer-template-section-2,
-.tackle-retainer-template-section-3,
-.tackle-retainer-template-section-4
-{
+//Margin Vertical
+.margin-vertical {
+  @include margin-vertical( 30px );
+}
+
+//Margin Bottom
+.margin-bottom {
   margin-bottom: 15px;
 }
 
-.tackle-secondary-nav,
-.tackle-projects-table-actions-nav,
-.tackle-projects-template-section-2a-nav,
-.tackle-reports-template-subsection-2b-secondary,
-.tackle-reports-template-nav-export,
-.tackle-uninvoiced-export-nav,
-.tackle-clients-template-nav
-{
+//Navigation Style
+.nav-style {
   ul {
 	li {
 	  position: relative;

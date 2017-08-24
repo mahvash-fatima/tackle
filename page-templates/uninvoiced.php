@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-uninvoiced-template-main" class="tackle-uninvoiced-template-main">
+<main id="tackle-uninvoiced-template-main" class="tackle-uninvoiced-template-main margin-vertical">
 	<div class="grid-container">
 
 		<div class="tackle-reports-template-section-1 grid-x grid-padding-x">
@@ -25,7 +25,7 @@ tackle_get_header();
 		</div>
 
 		<!--Section 1-->
-		<div class="tackle-uninvoiced-template-section-1 grid-x grid-padding-x">
+		<div class="tackle-uninvoiced-template-section-1 margin-bottom grid-x grid-padding-x">
 			<div class="large-12 cell">
 				<span>Uninvoiced Report</span>
 				<span>:</span>
@@ -63,7 +63,7 @@ tackle_get_header();
 							<span>Project With Balance Only</span>
 						</label>
 
-						<nav class="tackle-uninvoiced-export-nav">
+						<nav class="tackle-uninvoiced-export-nav nav-style">
 							<ul class="dropdown menu" data-dropdown-menu>
 								<li>
 									<a href="">Export<i class="fa fa-angle-down" aria-hidden="true"></i></a>

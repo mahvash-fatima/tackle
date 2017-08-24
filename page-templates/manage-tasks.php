@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-manage-tasks-template-main" class="tackle-manage-tasks-template-main">
+<main id="tackle-manage-tasks-template-main" class="tackle-manage-tasks-template-main margin-vertical">
 	<div class="grid-container">
 
 		<div class="grid-x grid-padding-x">

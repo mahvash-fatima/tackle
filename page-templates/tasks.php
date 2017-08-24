@@ -10,11 +10,11 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-tasks-template-main" class="tackle-tasks-template-main">
+<main id="tackle-tasks-template-main" class="tackle-tasks-template-main margin-vertical">
 	<div class="grid-container">
 
 		<!--Section 1-->
-		<div class="tackle-tasks-template-section-1 grid-x grid-padding-x">
+		<div class="tackle-tasks-template-section-1 margin-bottom grid-x grid-padding-x">
 			<nav class="large-12 cell">
 				<ul class="menu">
 					<li><a href="">Clients</a></li>
@@ -26,14 +26,14 @@ tackle_get_header();
 
 		<!--Section 2-->
 		<div class="grid-x grid-padding-x">
-			<div class="tackle-new-client-template-section-2 large-12 cell">
+			<div class="tackle-new-client-template-section-2 margin-bottom large-12 cell">
 				<h2>Manage Tasks</h2>
 			</div>
 		</div>
 
 		<!--Section 3-->
 		<div class="grid-x grid-padding-x">
-			<div class="tackle-new-client-template-section-3 large-12 cell">
+			<div class="tackle-new-client-template-section-3 margin-bottom large-12 cell">
 				<a href="" class="tackle-new-client-template-add-new-task">
 					<i class="fa fa-plus" aria-hidden="true"></i>
 					New Task

@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-	<main id="tackle-reports-template-main" class="tackle-reports-template-main">
+	<main id="tackle-reports-template-main" class="tackle-reports-template-main margin-vertical">
 		<div class="grid-container">
 
 			<!--Section 1-->
@@ -26,7 +26,7 @@ tackle_get_header();
 			</div>
 
 			<!--Section 2-->
-			<div class="tackle-reports-template-section-2 grid-x grid-padding-x">
+			<div class="tackle-reports-template-section-2 margin-bottom grid-x grid-padding-x">
 				<!--Subsection 2a - primary-->
 				<div class="tackle-reports-template-subsection-2a-primary large-10 medium-10 cell">
 				<span class="tackle-reports-template-time-toggle">
@@ -74,7 +74,7 @@ tackle_get_header();
 			</div>
 
 			<!--Section 3-->
-			<div class="tackle-reports-template-reports-summary grid-x grid-padding-x">
+			<div class="tackle-reports-template-reports-summary margin-bottom grid-x grid-padding-x">
 
 				<!--Subsection 3a - primary-->
 				<div class="tackle-reports-template-subsection-3a-primary large-3 medium-3 cell">
@@ -140,7 +140,7 @@ tackle_get_header();
 							</label>
 						</div>
 
-						<nav class="tackle-reports-template-nav-export large-2 medium-2 cell">
+						<nav class="tackle-reports-template-nav-export nav-style large-2 medium-2 cell">
 							<ul class="dropdown menu" data-dropdown-menu>
 								<li>
 									<a href="">Export<i class="fa fa-angle-down" aria-hidden="true"></i></a>

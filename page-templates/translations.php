@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-translations-template-main" class="tackle-translations-template-main">
+<main id="tackle-translations-template-main" class="tackle-translations-template-main margin-vertical">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 

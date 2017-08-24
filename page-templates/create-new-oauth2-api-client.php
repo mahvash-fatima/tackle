@@ -22,7 +22,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-create-new-oauth2-api-client-template-main" class="tackle-create-new-oauth2-api-client-template-main">
+<main id="tackle-create-new-oauth2-api-client-template-main" class="tackle-create-new-oauth2-api-client-template-main margin-vertical">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 

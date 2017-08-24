@@ -28,7 +28,7 @@ tackle_get_header();
 
 		<!--Section 2-->
 		<div class="grid-x grid-padding-x">
-			<div class="tackle-invoices-template-section-2 large-12 cell">
+			<div class="tackle-invoices-template-section-2 margin-bottom large-12 cell">
 				<a href="" class="tackle-invoices-template-add-new-Invoice">
 					<i class="fa fa-plus" aria-hidden="true"></i>
 					New Invoice
@@ -38,7 +38,7 @@ tackle_get_header();
 
 		<!--Section 3-->
 		<div class="grid-x grid-padding-x">
-			<div class="tackle-invoices-template-section-3 large-12 cell">
+			<div class="tackle-invoices-template-section-3 margin-bottom large-12 cell">
 				<p class="tackle-invoices-template-info">
 					Create customized (and handsome!) invoices in <br>
 					under a minute. With online payment, you’ll <br>

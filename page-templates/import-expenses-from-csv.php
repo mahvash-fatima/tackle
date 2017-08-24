@@ -10,7 +10,7 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-import-expenses-from-csv-template-main" class="tackle-import-expenses-from-csv-template-main">
+<main id="tackle-import-expenses-from-csv-template-main" class="tackle-import-expenses-from-csv-template-main margin-vertical">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
 
