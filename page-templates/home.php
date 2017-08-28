@@ -22,13 +22,11 @@ tackle_get_header();
 
 			<!--Section 1b-->
 			<div class="tackle-home-template-section-1b-secondary large-4 medium-4 cell">
-				<div class="tackle-home-template-section-1b-secondary-inner-1">
-					<div class="tackle-home-template-section-1b-secondary-inner-2">
-						<h2 class="tackle-home-template-title">Welcome to Tackle, Mahvash!</h2>
-						<p class="tackle-home-template-paragraph">Here's how to get started</p>
-						<p><i class="fa fa-long-arrow-left" aria-hidden="true"></i></p>
-						<p class="tackle-home-template-time-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></p>
-					</div>
+				<div class="tackle-home-template-section-1b-secondary-inner">
+					<h2 class="tackle-home-template-title">Welcome to Tackle, Mahvash!</h2>
+					<p class="tackle-home-template-paragraph">Here's how to get started</p>
+					<p><i class="fa fa-long-arrow-left" aria-hidden="true"></i></p>
+					<p class="tackle-home-template-time-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></p>
 				</div>
 			</div>
 		</div>
