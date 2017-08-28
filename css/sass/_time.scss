@@ -34,3 +34,62 @@
 	cursor: pointer;
   }
 }
+
+.tackle-time-template-subsection-1b-secondary  {
+  text-align: right;
+}
+
+//tackle-time-template-subsection-1b-secondary
+.tackle-time-template-day-toggle-left, .tackle-time-template-day-toggle-right {
+  padding: 8px 14px;
+  box-shadow: 0 0 0 1px #cccccc;
+  background: #ffffff;
+}
+
+.tackle-time-template-today, .tackle-time-template-day-button, .tackle-time-template-week {
+  box-shadow: 0 0 0 1px #cccccc;
+  padding: 8px 10px;
+  background: #ffffff;
+}
+
+.tackle-time-template-calendar {
+  background: #ffffff;
+  padding: 8px 12px;
+  box-shadow: 0 0 0 1px #cccccc;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.tackle-time-template-subsection-1b-secondary {
+  a{
+	&:hover {
+	  background: #e9e9e9;
+	}
+  }
+}
+
+//tackle-time-template-subsection-1a-primary
+.tackle-time-template-subsection-1a-primary {
+	font-size: 24px;
+}
+
+.tackle-time-template-day {
+  font-weight: bold;
+}
+
+.tackle-time-template-date {
+  color: #777777;
+}
+
+.tackle-add-new-time-entry-button-container {
+  .fa-plus-square {
+	font-size: 75px;
+  }
+}
+
+.tackle-time-template-subsection-2b-subsection-i {
+  span {
+	background: #e9e9e9;
+	box-shadow: 0 0 0 1px #cccccc;
+  }
+}

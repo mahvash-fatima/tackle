@@ -23,7 +23,7 @@
 <header id="tackle-header" class="tackle-header">
 	<div class="grid-container">
 		<div class="grid-x grid-padding-x">
-			<nav id="tackle-primary-nav" class="tackle-primary-nav large-8 medium-8 cell">
+			<div id="tackle-primary-nav" class="tackle-primary-nav large-8 medium-8 cell">
 				<ul class="dropdown menu" data-dropdown-menu>
 					<li><a href="<?php echo home_url() . '/tackle'; ?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
 					<li><a href="<?php echo home_url() . '/tackle/time'; ?>">Time</a></li>
@@ -33,8 +33,8 @@
 					<li><a href="<?php echo home_url() . '/tackle/invoices'; ?>">Invoices</a></li>
 					<li><a href="<?php echo home_url() . '/tackle/manage'; ?>">Manage</a></li>
 				</ul>
-			</nav>
-			<nav id="tackle-secondary-nav" class="tackle-secondary-nav nav-style large-4 medium-4 cell">
+			</div>
+			<div id="tackle-secondary-nav" class="tackle-secondary-nav nav-style large-4 medium-4 cell">
 				<ul class="dropdown menu" data-dropdown-menu>
 					<li><a href="">Help</a></li>
 					<li><a href="">Setting</a></li>
@@ -48,7 +48,7 @@
 						</ul>
 					</li>
 				</ul>
-			</nav>
+			</div>
 		</div>
 	</div>
 </header>

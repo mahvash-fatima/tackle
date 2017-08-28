@@ -15,7 +15,7 @@
 
 		addNewTimeEntry: function() {
 			var modal = $( '.tackle-add-new-time-entry-modal-box' ),
-				button = $( '#tackle-add-new-time-entry-button' ),
+				button = $( '#tackle-add-new-time-entry-button-container' ),
 				close = $( '#tackle-add-new-time-entry-close-button' ),
 				styles = {
 					top: ( ( window.innerHeight / 2 ) - ( modal.height() / 2 ) ) + 'px',
