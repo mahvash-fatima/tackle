@@ -7,30 +7,29 @@
  */
 
 tackle_get_header();
+
 ?>
 
-<main id="tackle-home-template-main" class="tackle-home-template-main margin-vertical margin-vertical">
+<main id="tackle-home-template-main" class="tackle-home-template-main margin-vertical">
 	<div class="grid-container">
+
 		<div class="grid-x grid-padding-x">
 
 			<!--Section 1a-->
-			<div class="tackle-home-template-section-1a-primary large-6 medium-6 cell">
-				<div class="tackle-home-temeplate-header margin-bottom">
-					<h2 class="tackle-home-template-title">Welcome to Tackle, Mahvash!</h2>
-					<p class="tackle-home-template-paragraph">Here's how to get started:</p>
-				</div>
-
-				<ul class="tackle-home-template-get-started-list">
-					<li><a href=""><i class="fa fa-play-circle" aria-hidden="true"></i>Learn the basics of time tracking</a></li>
-					<li><a href="<?php echo home_url() . '/tackle/new-project'; ?>"><i class="fa fa-file-text" aria-hidden="true"></i>Create a project</a></li>
-					<li><a href=""><i class="fa fa-clock-o" aria-hidden="true"></i>Track your first hour</a></li>
-					<li><a href=""><i class="fa fa-mobile" aria-hidden="true"></i>Get the apps and browser extension</a></li>
-				</ul>
+			<div class="tackle-home-template-section-1a-primary large-8 medium-8 cell">
+				<?php require_once( dirname( __FILE__ ) . '/../template-parts/home-slider.php' ); ?>
 			</div>
 
 			<!--Section 1b-->
-			<div class="tackle-home-template-section-1b-secondary large-6 medium-6 cell">
-				<i class="fa fa-clock-o" aria-hidden="true"></i>
+			<div class="tackle-home-template-section-1b-secondary large-4 medium-4 cell">
+				<div class="tackle-home-template-section-1b-secondary-inner-1">
+					<div class="tackle-home-template-section-1b-secondary-inner-2">
+						<h2 class="tackle-home-template-title">Welcome to Tackle, Mahvash!</h2>
+						<p class="tackle-home-template-paragraph">Here's how to get started</p>
+						<p><i class="fa fa-long-arrow-left" aria-hidden="true"></i></p>
+						<p class="tackle-home-template-time-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

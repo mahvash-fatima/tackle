@@ -10,6 +10,7 @@
 		init: function() {
 			this.addNewTimeEntry();
 			this.addNewTimeEntryLi();
+			this.homeSlider();
 		},
 
 		addNewTimeEntry: function() {
@@ -40,6 +41,19 @@
 			startTimerButton.on( 'click', function() {
 				timeEntryList.clone().appendTo( timeEntryContainer );
 			} );
+		},
+
+		homeSlider: function() {
+			$( '.tackle-home-template-slider' ).slick({
+				dots: false,
+				infinite: true,
+				speed: 300,
+				adaptiveHeight: true,
+				arrows: false,
+				slidesToShow: 1,
+				autoplay: true,
+				autoplaySpeed: 1000
+			});
 		}
 
 	};

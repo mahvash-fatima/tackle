@@ -3,7 +3,7 @@
 }
 
 .tackle-home-template-section-1b-secondary {
-  text-align: right;
+  text-align: center;
 }
 
 .tackle-home-template-get-started-list {
@@ -17,4 +17,53 @@
 	font-size: 50px;
 	vertical-align: middle;
   }
+}
+
+.tackle-home-template-slider {
+  position: relative;
+}
+
+.tackle-home-template-slide-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  //padding: 50px;
+}
+
+.tackle-home-template-slide-title {
+  i {
+	margin-right: 15px;
+	vertical-align: middle;
+  }
+  .fa-play {
+	font-size: 77px;
+  }
+  .fa-file-text {
+	font-size: 70px;
+  }
+  .fa-mobile {
+	font-size: 117px;
+  }
+  .fa-clock-o {
+	font-size: 94px;
+  }
+}
+
+.tackle-home-template-time-icon {
+  i {
+	font-size: 96px;
+	color: #dddddd;
+  }
+}
+
+.tackle-home-template-section-1b-secondary-inner-1 {
+  border-top: 3px solid #000000;
+  border-left: 3px solid #000000;
+  padding: 15px;
+}
+
+.tackle-home-template-section-1b-secondary-inner-2 {
+  border-right: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+  padding: 15px;
 }

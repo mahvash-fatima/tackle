@@ -202,3 +202,16 @@
     opacity: .75;
     color: black;
 }
+
+.tackle-home-template-slider .slick-dots li button:before {
+	color: black;
+}
+
+.tackle-home-template-slider .slick-dots li button:hover, .slick-dots li button:focus {
+	background: none;
+	border: none;
+}
+
+.tackle-home-template-slider .slick-dots {
+	text-align: right;
+}
