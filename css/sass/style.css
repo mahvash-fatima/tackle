@@ -390,9 +390,71 @@ Time
 .tackle-add-new-time-entry-button-container .fa-plus-square {
   font-size: 75px; }
 
-.tackle-time-template-subsection-2b-subsection-i span {
-  background: #e9e9e9;
-  box-shadow: 0 0 0 1px #cccccc; }
+.tackle-time-template-week-day-name, .tackle-time-template-week-day-total-time {
+  box-shadow: 0 0 0 1px #cccccc;
+  background: #ffffff;
+  position: relative; }
+
+.tackle-time-template-week-day-total-time {
+  position: relative;
+  display: flex;
+  justify-content: center; }
+
+.tackle-time-template-total-time-link {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block; }
+
+.tackle-time-template-total-time {
+  font-weight: 700;
+  color: #555555; }
+
+.tackle-time-template-week-day, .tackle-time-template-total {
+  font-weight: bold; }
+
+.tackle-time-template-total {
+  text-align: right;
+  color: #777777; }
+
+.tackle-time-template-subsection-2b-subsection-i {
+  margin-bottom: 10px; }
+
+.tackle-time-template-entry-time {
+  font-size: 22px;
+  font-weight: 700; }
+
+.tackle-time-template-entry-time, .tackle-time-template-stop {
+  margin-right: 10px; }
+
+.tackle-time-template-entry-time-edit a {
+  box-shadow: 0 0 0 1px #cccccc;
+  background: #ffffff;
+  padding: 6px 9px; }
+
+.tackle-time-template-subsection-2b-subsection-ii {
+  border-bottom: 1px solid #CCCCCC; }
+
+.tackle-time-template-subsection-2b-subsection-iii {
+  font-weight: 700;
+  font-size: 22px; }
+
+.tackle-time-template-project, .tackle-time-start {
+  font-weight: bold; }
+
+.tackle-time-template-task {
+  font-weight: bold;
+  color: #555555; }
+
+.tackle-time-template-task-note {
+  color: #555555; }
+
+.tackle-time-template-stop a {
+  background: #4484ce;
+  padding: 10px 14px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px; }
 
 /*--------------------------------------------------------------
 Translations

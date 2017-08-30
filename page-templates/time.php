@@ -19,13 +19,13 @@ tackle_functions();
 		<div class="tackle-time-template-section-1 margin-bottom grid-x grid-padding-x">
 
 			<!--Subsection 1a - primary-->
-			<div class="tackle-time-template-subsection-1a-primary large-6 medium-6 cell">
+			<div class="tackle-time-template-subsection-1a-primary large-4 medium-4 cell">
 				<span class="tackle-time-template-day"><?php echo date( 'l' ); ?></span>
 				<span class="tackle-time-template-date"><?php echo date( 'd M' ); ?></span>
 			</div>
 
 			<!--Subsection 1b - secondary-->
-			<div class="tackle-time-template-subsection-1b-secondary large-6 medium-6 cell">
+			<div class="tackle-time-template-subsection-1b-secondary large-8 medium-8 cell">
 				<a href="" class="tackle-time-template-day-toggle-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a><a href="" class="tackle-time-template-today">Today</a><a href="" class="tackle-time-template-day-toggle-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				<a href="" class="tackle-time-template-calendar"><i class="fa fa-calendar" aria-hidden="true"></i></a>
 				<a href="" class="tackle-time-template-day-button">Day</a><a href="" class="tackle-time-template-week">Week</a>
@@ -92,18 +92,19 @@ tackle_functions();
 
 				<!--Subsection 2b - subsection i-->
 				<div class="tackle-time-template-subsection-2b-subsection-i grid-x grid-padding-x">
-					<span class="large-1 medium-1 small-1 cell"><a href="">M <p><?php total_time(); ?></p></a></span>
-					<span class="large-1 medium-1 small-1 cell"><a href="">T <p>0:00</p></a></span>
-					<span class="large-1 medium-1 small-1 cell"><a href="">W <p>0:00</p></a></span>
-					<span class="large-1 medium-1 small-1 cell"><a href="">Th <p>0:00</p></a></span>
-					<span class="large-1 medium-1 small-1 cell"><a href="">F <p>0:00</p></a></span>
-					<span class="large-1 medium-1 small-1 cell"><a href="">S <p>0:00</p></a></span>
-					<span class="large-1 medium-1 small-1 cell"><a href="">Su <p>0:00</p></a></span>
-					<span class="large-5 medium-5 small-5 cell">
-						<a href="" class="tackle-time-template-total">Total
+					<div class="tackle-time-template-week-day-name large-1 cell"><a href=""><span class="tackle-time-template-week-day">M</span><p><?php total_time(); ?></p></a></div>
+					<div class="tackle-time-template-week-day-name large-1 cell"><a href=""><span class="tackle-time-template-week-day">T</span><p>0:00</p></a></div>
+					<div class="tackle-time-template-week-day-name large-1 cell"><a href=""><span class="tackle-time-template-week-day">W</span><p>0:00</p></a></div>
+					<div class="tackle-time-template-week-day-name large-1 cell"><a href=""><span class="tackle-time-template-week-day">Th</span> <p>0:00</p></a></div>
+					<div class="tackle-time-template-week-day-name large-1 cell"><a href=""><span class="tackle-time-template-week-day">F</span><p>0:00</p></a></div>
+					<div class="tackle-time-template-week-day-name large-1 cell"><a href=""><span class="tackle-time-template-week-day">S</span><p>0:00</p></a></div>
+					<div class="tackle-time-template-week-day-name large-1 cell"><a href=""><span class="tackle-time-template-week-day">Su</span> <p>0:00</p></a></div>
+					<div class="tackle-time-template-week-day-total-time large-5 cell">
+						<a href="" class="tackle-time-template-total-time-link">
+							<span class="tackle-time-template-total">Total:</span>
 							<span class="tackle-time-template-total-time"><?php total_time(); ?></span>
 						</a>
-					</span>
+					</div>
 				</div>
 
 				<!--Subsection 2b - subsection ii-->
@@ -116,7 +117,7 @@ tackle_functions();
 					</div>
 
 					<!--Subsection 2b - subsection ii secondary-->
-					<div class="tackle-time-template-subsection-2b-subsection-ii-secondary large-5 medium-5 cell">
+					<div class="tackle-time-template-subsection-2b-subsection-ii-secondary large-6 medium-6 cell">
 						<span class="tackle-time-template-project"><?php echo $_POST['tackle-project']; ?></span>
 						<span class="tackle-time-template-project-client">(Mahvash)</span>
 						<div class="tackle-time-template-task-notes">
@@ -127,17 +128,22 @@ tackle_functions();
 					</div>
 
 					<!--Subsection 2b - subsection ii secondary-->
-					<div class="tackle-time-template-subsection-2b-subsection-ii-tertiary large-6 medium-6 cell">
+					<div class="tackle-time-template-subsection-2b-subsection-ii-tertiary large-5 medium-5 cell">
 						<span class="tackle-time-template-entry-time"><?php total_time(); ?></span>
-						<span class="tackle-time-template-stop"><a href=""><i class="fa fa-spin fa-circle-o-notch" aria-hidden="true"></i>Stop</a></span>
-						<span class="tackle-time-template-entry-time-edit"><a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></span>
+						<span class="tackle-time-template-stop">
+							<a href="">
+								<i class="fa fa-spin fa-circle-o-notch" aria-hidden="true"></i>
+								Stop
+							</a>
+						</span>
+						<span class="tackle-time-template-entry-time-edit"><a href=""><i class="fa fa-pencil" aria-hidden="true"></i></a></span>
 					</div>
-				</div>
 
+				</div>
 				<!--Subsection 2b - subsection iii-->
-				<div class="tackle-time-template-subsection-2b-subsection-iii large-12 medium-12 cell">
-					<span class="tackle-time-template-total">Total:</span>
-					<span class="tackle-time-template-total-time"><?php total_time(); ?></span>
+				<div class="tackle-time-template-subsection-2b-subsection-iii grid-x grid-padding-x">
+					<div class="tackle-time-template-total large-7 medium-7 cell">Total:</div>
+					<div class="tackle-time-template-total-time large-5 medium-5 cell"><?php total_time(); ?></div>
 				</div>
 
 			</div>
