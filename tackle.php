@@ -103,3 +103,4 @@ function tackle_fonts_url() {
 
 	return ( substr( site_url(), 0, 8 ) == 'https://') ? 'https://' . $font_url : 'http://' . $font_url;
 }
+

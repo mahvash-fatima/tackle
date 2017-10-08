@@ -22,13 +22,15 @@
 	li {
 	  position: relative;
 	  ul {
-		position: absolute;
-		top: 37px;
-		right: 0;
-		background: #fff;
-		z-index: 1;
-		border: 3px solid #000000;
-		display: none;
+		  position: absolute;
+		  top: 48px;
+		  right: 0;
+		  background: #f0f0f0;
+		  color: #000000;
+		  z-index: 1;
+		  display: none;
+		  min-width: 230px;
+		  font-weight: 400;
 	  }
 	  &:hover {
 		ul {
@@ -39,8 +41,28 @@
   }
 }
 
+.tackle-profile-nav {
+	background: #ffffff;
+	box-shadow: 0 4px 6px -2px #cdcdcd;
+	img {
+		margin-right: 10px;
+	}
+}
+
+.tackle-signout-nav {
+	border-top: 1px solid #cccccc;
+}
+
+.tackle-primary-nav ul li>a, .tackle-secondary-nav ul li>a {
+	line-height: 2;
+}
+
+.tackle-primary-nav a:hover, .tackle-secondary-nav a:hover {
+	background: rgba(163, 172, 182, 0.2);
+}
+
 .tackle-secondary-nav {
-  .fa-angle-down {
+  .fa-caret-down {
 	margin-left: 5px;
   }
 }

@@ -37,14 +37,14 @@
 			<div id="tackle-secondary-nav" class="tackle-secondary-nav nav-style large-4 medium-4 cell">
 				<ul class="dropdown menu" data-dropdown-menu>
 					<li><a href="">Help</a></li>
-					<li><a href="">Setting</a></li>
+					<li><a href="">Settings</a></li>
 					<li>
-						<a href="">Account<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-						<ul class="menu">
-							<li><a href="<?php echo home_url() . '/tackle/my-profile'; ?>">My Profile</a></li>
+						<a href="">Account<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+						<ul class="menu tackle-account-nav">
+							<li class="tackle-profile-nav"><a href="<?php echo home_url() . '/tackle/my-profile'; ?>"><img src="<?php echo plugin_dir_url( __FILE__ ) . '../images/profile.jpg'; ?>" alt=""><span>My Profile</span></a></li>
 							<li><a href="<?php echo home_url() . '/tackle/my-time-report'; ?>">My Time Report</a></li>
 							<li><a href="<?php echo home_url() . '/tackle/referrals'; ?>">Refferals</a></li>
-							<li><a href="<?php echo home_url() . '/tackle/signout'; ?>">Sign Out</a></li>
+							<li class="tackle-signout-nav"><a href="<?php echo home_url() . '/tackle/signout'; ?>">Sign Out</a></li>
 						</ul>
 					</li>
 				</ul>

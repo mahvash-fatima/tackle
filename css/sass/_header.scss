@@ -1,8 +1,10 @@
 //Body
 
 .tackle-header {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background: #24292e;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
 }
 
 .tackle-secondary-nav {
@@ -11,3 +13,9 @@
   justify-content: flex-end;
 }
 
+.tackle-primary-nav {
+  .fa-home {
+    font-size: 20px;
+    vertical-align: sub;
+  }
+}
