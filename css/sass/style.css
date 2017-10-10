@@ -2,6 +2,12 @@
 Mixins
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
+Color Variables
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Functions
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
 Custom
 --------------------------------------------------------------*/
 .tackle-body {
@@ -348,262 +354,56 @@ Time
 /*--------------------------------------------------------------
 Time
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Time Page Template Main
+--------------------------------------------------------------*/
 .tackle-time-template-main {
   min-height: 700px; }
 
-.tackle-date {
-  text-align: left; }
+/*--------------------------------------------------------------
+Time Page Template Section 1
+--------------------------------------------------------------*/
+.tackle-time-template-section-1 {
+  background: #fafbfc;
+  border-bottom: 1px solid #cacccf;
+  padding-top: 10px; }
 
-.tackle-day-view {
-  text-align: right; }
-
-.tackle-new-time-entry-text {
-  display: block; }
-
-.tackle-add-new-time-entry-modal-box {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1; }
-
-.tackle-add-new-time-entry-modal-box {
-  background-color: #ffffff;
-  padding: 20px;
-  border: 1px solid #888; }
-
-#tackle-add-new-time-entry-close-button {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold; }
-  #tackle-add-new-time-entry-close-button:hover, #tackle-add-new-time-entry-close-button:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer; }
-
-.tackle-time-template-subsection-1b-secondary {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 13px;
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-.tackle-time-template-day-toggle-left, .tackle-time-template-day-toggle-right {
+/*--------------------------------------------------------------
+Time Page Template Section 1a
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Time Page Template Section 1a Primary
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Time Page Template Section 1a Secondary
+--------------------------------------------------------------*/
+.tackle-time-template-section-1a-secondary {
   font-size: 20px;
-  vertical-align: middle;
-  padding: 3px 10px; }
-
-.tackle-time-template-today, .tackle-time-template-day-button, .tackle-time-template-week {
-  padding-left: 7px;
-  padding-right: 7px;
-  background: #ffffff; }
-
-.tackle-time-template-calendar {
-  background: #ffffff;
-  padding-left: 8px;
-  padding-right: 8px;
-  margin-left: 5px;
-  margin-right: 5px; }
-
-.tackle-time-template-subsection-2b-subsection-i-primary a:first-child {
-  background: #fff;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border-right: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  position: relative;
-  top: 1px; }
-
-.tackle-time-template-subsection-1a-primary {
-  font-size: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   line-height: initial; }
 
 .tackle-time-template-day {
   color: #464545; }
 
 .tackle-time-template-date {
-  color: #9b9b9b; }
+  color: #757575; }
 
-.tackle-add-new-time-entry-button-container .fa-plus {
-  font-size: 30px;
-  background: #0a0;
-  cursor: pointer;
-  color: #fff;
-  padding: 20px 23px;
-  border-radius: 100%; }
-  .tackle-add-new-time-entry-button-container .fa-plus:hover {
-    color: #fff;
-    background: #00b500; }
+.tackle-time-template-day, .tackle-time-template-date {
+  vertical-align: middle; }
 
-.tackle-time-template-week-day-name, .tackle-time-template-week-day-total-time {
-  box-shadow: 0 0 0 1px #cccccc;
-  background: #ffffff; }
-
-.tackle-time-template-week-day-name {
-  transition: 0.3s; }
-  .tackle-time-template-week-day-name:hover {
-    background: #F0ECEB; }
-
-.tackle-time-template-week-day-total-time {
-  display: flex;
-  justify-content: center;
-  background: #F0ECEB;
-  font-size: 17px; }
-
-.tackle-time-template-total-time {
-  font-weight: 700;
-  color: #000000; }
-
-.tackle-time-template-week-day {
-  font-weight: bold; }
-
-.tackle-time-template-subsection-2b-subsection-iii {
-  text-align: right; }
-
-.tackle-time-template-total {
-  color: #777777;
-  font-weight: 400;
-  margin-right: 70px; }
-
-.tackle-time-template-subsection-2b-subsection-i-primary {
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px; }
-  .tackle-time-template-subsection-2b-subsection-i-primary a {
-    display: inline-block;
-    color: #646464; }
-    .tackle-time-template-subsection-2b-subsection-i-primary a:first-child {
-      border-top: 3px solid #4d7dae;
-      color: #000000; }
-  .tackle-time-template-subsection-2b-subsection-i-primary p {
-    color: #555555; }
-
-.tackle-time-template-subsection-2b-secondary .tackle-time-template-subsection-2b-ii-container .tackle-time-template-subsection-2b-subsection-ii,
-.tackle-time-template-subsection-2b-secondary .tackle-time-template-subsection-2b-ii-container .tackle-time-template-subsection-2b-subsection-iii {
-  margin: 0; }
-
-.tackle-time-template-week-day-container {
-  margin: 5px 26px 0 26px; }
-
-.tackle-time-template-subsection-2b-subsection-i-secondary {
-  position: relative; }
-
-.tackle-time-template-total-time-link {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%); }
-
-.tackle-time-template-entry-time {
-  font-size: 20px;
-  font-weight: 700; }
-
-.tackle-time-template-stop, .tackle-time-template-entry-time-edit {
-  margin-right: 10px; }
-
-.tackle-time-template-entry-time-edit a {
-  box-shadow: 0 0 0 1px #cccccc;
-  background: #ffffff;
-  padding: 6px 9px; }
-  .tackle-time-template-entry-time-edit a:hover {
-    background: #f0eceb; }
-
-.tackle-time-template-subsection-2b-subsection-i-container {
-  padding-top: 10px; }
-
-.tackle-time-template-subsection-2b-subsection-ii {
-  border-bottom: 1px solid #CCCCCC;
-  background: #f5f8fc;
-  position: relative; }
-
-.tackle-time-template-subsection-2b-subsection-iii {
-  font-weight: 700;
-  font-size: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.tackle-time-template-project, .tackle-time-start {
-  font-weight: bold; }
-
-.tackle-time-template-task {
-  font-weight: bold;
-  color: #555555; }
-
-.tackle-time-template-task-note {
-  color: #555555; }
-
-.tackle-time-template-stop a {
-  background: #4484ce;
-  padding: 10px;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 15px;
-  border-radius: 3px; }
-  .tackle-time-template-stop a:hover {
-    background: #407dc4;
-    color: #ffffff; }
-
-.tackle-time-template-subsection-2b-subsection-ii-tertiary {
-  text-align: right;
+/*--------------------------------------------------------------
+Time Page Template Section 1a Tertiary
+--------------------------------------------------------------*/
+.tackle-time-template-section-1a-tertiary {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  text-align: right;
+  font-size: 13px; }
 
-.tackle-time-template-new-entry {
-  color: #898989;
-  margin-top: 7px; }
-
-.tackle-time-template-subsection-2b-subsection-ii-secondary,
-.tackle-time-template-subsection-2b-subsection-ii-tertiary {
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.tackle-time-template-day-toggle-left,
-.tackle-time-template-day-toggle-right,
-.tackle-time-template-today,
-.tackle-time-template-calendar,
-.tackle-time-template-day-button,
-.tackle-time-template-week,
-.tackle-time-template-entry-time-edit {
-  background: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
-  color: #000000; }
-  .tackle-time-template-day-toggle-left:hover,
-  .tackle-time-template-day-toggle-right:hover,
-  .tackle-time-template-today:hover,
-  .tackle-time-template-calendar:hover,
-  .tackle-time-template-day-button:hover,
-  .tackle-time-template-week:hover,
-  .tackle-time-template-entry-time-edit:hover {
-    background-color: #e6ebf1;
-    background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
-    background-position: 0 -0.5em;
-    border-color: rgba(27, 31, 35, 0.35); }
-
-.tackle-time-template-day-toggle-left, .tackle-time-template-day-button {
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
+.tackle-time-template-nav-day-right {
   border: 1px solid #cacccf; }
 
-.tackle-time-template-day-toggle-right, .tackle-time-template-week {
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px; }
-
-.tackle-time-template-day-toggle-right {
-  border: 1px solid #cacccf; }
-
-.tackle-time-template-today, .tackle-time-template-day-button, .tackle-time-template-week {
-  vertical-align: middle;
-  padding: 7px 8px;
-  font-size: 13px;
-  line-height: initial;
-  border-top: 1px solid #cacccf;
-  border-bottom: 1px solid #cacccf; }
-
-.tackle-time-template-calendar {
+.tackle-time-template-nav-calendar {
   margin-left: 5px;
   margin-right: 5px;
   border-radius: 3px;
@@ -612,44 +412,204 @@ Time
   font-size: 14px;
   vertical-align: middle; }
 
-.tackle-time-template-day-button {
+.tackle-time-template-nav-day {
   border-left: 1px solid #cacccf;
   border-right: 1px solid #cacccf; }
 
-.tackle-time-template-week {
+.tackle-time-template-nav-week {
   border-right: 1px solid #cacccf; }
 
-.tackle-time-template-entry-time-edit {
-  border: 1px solid #cacccf;
-  padding: 6px 8px;
-  border-radius: 3px;
-  font-size: 13px; }
+.tackle-time-template-nav-today,
+.tackle-time-template-nav-day,
+.tackle-time-template-nav-week,
+.tackle-time-template-nav-day-left,
+.tackle-time-template-nav-day-right,
+.tackle-time-template-nav-calendar {
+  background: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+  color: #000000; }
+  .tackle-time-template-nav-today:hover,
+  .tackle-time-template-nav-day:hover,
+  .tackle-time-template-nav-week:hover,
+  .tackle-time-template-nav-day-left:hover,
+  .tackle-time-template-nav-day-right:hover,
+  .tackle-time-template-nav-calendar:hover {
+    background-color: #e6ebf1;
+    background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
+    background-position: 0 0;
+    border-color: rgba(27, 31, 35, 0.35); }
 
-.tackle-time-template-section-1 {
-  background: #fafbfc;
-  border-bottom: 1px solid #CCCCCC;
+.tackle-time-template-nav-day-left,
+.tackle-time-template-nav-day {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border: 1px solid #cacccf; }
+
+.tackle-time-template-nav-day-right,
+.tackle-time-template-nav-week {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px; }
+
+.tackle-time-template-nav-today,
+.tackle-time-template-nav-day,
+.tackle-time-template-nav-week {
+  padding: 7px 8px;
+  font-size: 13px;
+  line-height: initial;
+  border-top: 1px solid #cacccf;
+  border-bottom: 1px solid #cacccf;
+  vertical-align: middle; }
+
+.tackle-time-template-nav-day-left,
+.tackle-time-template-nav-day-right {
+  font-size: 20px;
+  vertical-align: middle;
+  padding: 3px 10px; }
+
+/*--------------------------------------------------------------
+Time Page Template Section 1b
+--------------------------------------------------------------*/
+.tackle-time-template-section-1b {
   padding-top: 10px; }
 
+.tackle-add-new-time-entry-container {
+  display: none; }
+
+.tackle-time-template-week-day-container, .tackle-time-template-total-time-container {
+  margin: 5px 26px 0 26px; }
+
+.tackle-time-template-section-1b-secondary {
+  font-size: 13px; }
+  .tackle-time-template-section-1b-secondary a {
+    display: inline-block;
+    color: #646464; }
+    .tackle-time-template-section-1b-secondary a:first-child {
+      background: #fff;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      border-right: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      position: relative;
+      top: 1px;
+      border-top: 3px solid #4d7dae;
+      color: #000000; }
+
+.tackle-time-template-total-time-container {
+  color: #757575;
+  font-size: 15px; }
+
+.tackle-time-template-week-day, .tackle-time-template-week-day-total-time-calc {
+  font-weight: bold; }
+
+/*--------------------------------------------------------------
+Time Page Template Section 2
+--------------------------------------------------------------*/
 .tackle-time-template-section-2 {
-  margin-top: 20px;
-  margin-bottom: 20px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
-.tackle-time-template-container {
-  border: 1px solid #ccc;
-  border-radius: 3px; }
+/*--------------------------------------------------------------
+Time Page Template Section 2 Primary
+--------------------------------------------------------------*/
+.tackle-time-template-section-2-primary .fa-plus {
+  font-size: 30px;
+  background: #0a0;
+  cursor: pointer;
+  color: #fff;
+  padding: 20px 23px;
+  border-radius: 100%; }
+  .tackle-time-template-section-2-primary .fa-plus:hover {
+    color: #fff;
+    background: #00b500; }
 
-.tackle-blue {
-  background: #ffffff; }
+.tackle-time-template-time-template-new-entry {
+  color: #757575;
+  margin-top: 7px; }
 
-.tackle-time-template-week-day-total {
+/*--------------------------------------------------------------
+Time Page Template Section 2 Secondary 1
+--------------------------------------------------------------*/
+.tackle-time-template-section-2-secondary-1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #f6f8fb;
+  border-bottom: 1px solid #cacccf;
+  position: relative; }
+
+/*--------------------------------------------------------------
+Time Page Template Section 2 Secondary 1a
+--------------------------------------------------------------*/
+.tackle-time-template-project {
+  font-weight: bold; }
+
+.tackle-time-template-task {
+  color: #464545; }
+
+.tackle-time-template-task-note {
+  color: #757575; }
+
+/*--------------------------------------------------------------
+Time Page Template Section 2 Secondary 1b
+--------------------------------------------------------------*/
+.tackle-time-template-section-2-secondary-1b {
+  text-align: right;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  font-size: 15px;
-  color: #898989; }
+  justify-content: center; }
+  .tackle-time-template-section-2-secondary-1b .tackle-time-template-section-2-secondary-ii-inner {
+    margin-bottom: 0; }
 
-.tackle-time-template-week-day-total-time-calc {
+.tackle-time-template-entry-time-edit .fa-pencil {
+  border: 1px solid #cacccf;
+  padding: 8px 9px;
+  border-radius: 3px;
+  font-size: 13px;
+  background: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+  color: #000000; }
+  .tackle-time-template-entry-time-edit .fa-pencil:hover {
+    background-color: #e6ebf1;
+    background-image: linear-gradient(-180deg, #f0f3f6 0%, #e6ebf1 90%);
+    background-position: 0 0;
+    border-color: rgba(27, 31, 35, 0.35); }
+
+.tackle-time-template-stop {
+  background: #4484ce;
+  padding: 10px 12px;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 3px; }
+  .tackle-time-template-stop:hover {
+    background: #407dc4; }
+  .tackle-time-template-stop .fa-spin {
+    margin-right: 5px; }
+
+.tackle-time-template-section-2-secondary-ii-inner .tackle-time-template-stop {
+  color: #ffffff; }
+  .tackle-time-template-section-2-secondary-ii-inner .tackle-time-template-stop:hover {
+    color: #ffffff; }
+
+.tackle-time-template-entry-time-edit, .tackle-time-template-stop {
+  margin-left: 5px;
+  margin-right: 5px; }
+
+.tackle-time-template-entry-time {
+  font-size: 20px;
+  font-weight: bold; }
+
+/*--------------------------------------------------------------
+Time Page Template Section 2 Secondary 2
+--------------------------------------------------------------*/
+.tackle-time-template-section-2-secondary-2 {
+  padding: 26px 0;
+  text-align: right;
+  font-size: 20px;
+  color: #757575; }
+
+.tackle-time-template-total-time {
   font-weight: 700; }
+
+.tackle-time-template-total,
+.tackle-time-template-total-time {
+  font-size: 20px; }
 
 /*--------------------------------------------------------------
 Translations
