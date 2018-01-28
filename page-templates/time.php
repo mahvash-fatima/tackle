@@ -126,6 +126,12 @@ tackle_functions();
 			<div class="tackle-time-template-section-2-primary large-1 medium-1 cell">
 				<i class="fa fa-plus" aria-hidden="true"></i>
 				<p class="tackle-time-template-time-template-new-entry">New Entry</p>
+				<form action="" method="post">
+					<label for="mahvash-note">
+						<input type="text" name="mahvash-note" id="mahvash-note">
+					</label>
+					<button id="insert" type="submit">Insert</button>
+				</form>
 			</div><!--tackle-time-template-section-2-primary-->
 
 			<!--tackle-time-template-section-2-secondary-->
@@ -141,7 +147,7 @@ tackle_functions();
 						<div class="tackle-time-template-task-notes">
 							<span class="tackle-time-template-task">Create Plugin</span>
 							<span class="tackle-time-template-dash">-</span>
-							<span class="tackle-time-template-task-note">Write a note here.</span>
+							<span class="tackle-time-template-task-note"></span>
 						</div>
 					</div><!--tackle-time-template-section-2-secondary-1a-->
 

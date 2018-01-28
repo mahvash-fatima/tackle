@@ -54,6 +54,10 @@ class Plugin extends Plugin_Base {
 			wp_enqueue_script( 'tackle-what-input' );
 			wp_enqueue_script( 'tackle-foundation' );
 			wp_enqueue_script( 'tackle-foundation-app' );
+			wp_localize_script( 'tackle-main', 'tackleEntry', array(
+				'ajaxurl' => admin_url( 'admin-ajax.php' ),
+				'security' => wp_create_nonce( 'tackle_ajax_hook' ),
+			) );
 		}
 	}
 
