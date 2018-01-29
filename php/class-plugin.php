@@ -48,12 +48,14 @@ class Plugin extends Plugin_Base {
 			wp_register_script( 'tackle-what-input', plugin_dir_url( __DIR__ ) . 'js/vendor/foundation/what-input.js', array( 'jquery' ), 0.1 );
 			wp_register_script( 'tackle-foundation', plugin_dir_url( __DIR__ ) . 'js/vendor/foundation/foundation.js', array( 'jquery' ), 0.1 );
 			wp_register_script( 'tackle-foundation-app', plugin_dir_url( __DIR__ ) . 'js/vendor/foundation/app.js', array( 'jquery' ), 0.1 );
+			wp_register_script( 'tackle-bpopup', plugin_dir_url( __DIR__ ) . 'js/vendor/jquery.bpopup.min.js', array( 'jquery' ), 0.1 );
 			wp_enqueue_script( 'tackle-slick-script', 19, 1 );
 			wp_enqueue_script( 'tackle-main', 20, 1 );
 			wp_enqueue_script( 'tackle-foundation-jquery' );
 			wp_enqueue_script( 'tackle-what-input' );
 			wp_enqueue_script( 'tackle-foundation' );
 			wp_enqueue_script( 'tackle-foundation-app' );
+			wp_enqueue_script( 'tackle-bpopup' );
 			wp_localize_script( 'tackle-main', 'tackleEntry', array(
 				'ajaxurl' => admin_url( 'admin-ajax.php' ),
 				'security' => wp_create_nonce( 'tackle_ajax_hook' ),

@@ -5,10 +5,11 @@
 	window.Tackle = {
 
 		init: function () {
-			this.test();
+			this.timeEntry();
+			this.popup();
 		},
 
-		test: function () {
+		timeEntry: function () {
 			var button = $('.tackle-time-template-section-2-primary #insert'),
 				note = $('#mahvash-note'),
 				ajaxUrl = tackleEntry.ajaxurl;
@@ -40,8 +41,19 @@
 					});
 				});
 
+		},
 
+		popup: function () {
+			var newEntryButton = $('.tackle-time-template-section-2-primary'),
+				popupContent = $( '.tackle-popup-content' );
 
+			newEntryButton.on( 'click', function ( e ) {
+
+				e.preventDefault();
+
+				popupContent.bPopup();
+
+			} );
 		}
 
 	};
