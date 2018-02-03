@@ -97,7 +97,8 @@ Time Page Template Section 1a Tertiary
 
 .tackle-time-template-nav-today,
 .tackle-time-template-nav-day,
-.tackle-time-template-nav-week,
+.tackle-time-template-
+-week,
 .tackle-time-template-nav-day-left,
 .tackle-time-template-nav-day-right,
 .tackle-time-template-nav-calendar
@@ -362,4 +363,31 @@ Time Page Template Section 2 Secondary 2
 .tackle-time-template-total,
 .tackle-time-template-total-time {
   font-size: 20px;
+}
+
+//Bootstrap
+
+/*--------------------------------------------------------------
+Time Page Template
+--------------------------------------------------------------*/
+
+.tackle-time-sheet-header {
+  padding-top: rem-calc(40);
+  padding-bottom: rem-calc(20);
+}
+
+.tackle-entry-date {
+  font-size: rem-calc(20);
+}
+
+.tackle-time-entry-content {
+  text-align: left;
+}
+
+.tackle-archive-container {
+  text-align: right;
+}
+
+.tackle-date {
+  font-size: rem-calc(18);
 }

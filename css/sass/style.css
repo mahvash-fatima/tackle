@@ -1,4 +1,7 @@
 /*--------------------------------------------------------------
+Functions
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
 Mixins
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
@@ -14,7 +17,8 @@ Custom
   font-family: 'Karla', sans-serif;
   color: #000000;
   background: #ffffff;
-  font-size: 14px; }
+  font-size: 14px;
+  padding-top: 3.5rem; }
 
 .margin-vertical {
   margin-top: 50px;
@@ -22,39 +26,6 @@ Custom
 
 .margin-bottom {
   margin-bottom: 30px; }
-
-.nav-style ul li {
-  position: relative; }
-  .nav-style ul li ul {
-    position: absolute;
-    top: 48px;
-    right: 0;
-    background: #f0f0f0;
-    color: #000000;
-    z-index: 1;
-    display: none;
-    min-width: 230px;
-    font-weight: 400; }
-  .nav-style ul li:hover ul {
-    display: block; }
-
-.tackle-profile-nav {
-  background: #ffffff;
-  box-shadow: 0 4px 6px -2px #cdcdcd; }
-  .tackle-profile-nav img {
-    margin-right: 10px; }
-
-.tackle-signout-nav {
-  border-top: 1px solid #cccccc; }
-
-.tackle-primary-nav ul li > a, .tackle-secondary-nav ul li > a {
-  line-height: 2; }
-
-.tackle-primary-nav a:hover, .tackle-secondary-nav a:hover {
-  background: rgba(163, 172, 182, 0.2); }
-
-.tackle-secondary-nav .fa-caret-down {
-  margin-left: 5px; }
 
 .tackle-home-template-main {
   min-height: 500px; }
@@ -123,7 +94,6 @@ Elements
 .tackle-body p {
   margin-bottom: 7px; }
 .tackle-body ul {
-  margin: 0;
   list-style: none; }
 .tackle-body a {
   color: inherit; }
@@ -131,30 +101,6 @@ Elements
     color: inherit; }
   .tackle-body a:focus {
     color: inherit; }
-.tackle-body button,
-.tackle-body input[type='submit'],
-.tackle-body input[type='button'] {
-  font-family: inherit;
-  background: #ffffff;
-  color: #000000;
-  padding: 8px 10px;
-  text-transform: uppercase;
-  border: 2px solid;
-  border-radius: 0;
-  font-weight: 700;
-  font-size: 12px; }
-  .tackle-body button:hover,
-  .tackle-body input[type='submit']:hover,
-  .tackle-body input[type='button']:hover {
-    background: #000000;
-    color: #ffffff;
-    border: 2px solid #000000; }
-  .tackle-body button:focus,
-  .tackle-body input[type='submit']:focus,
-  .tackle-body input[type='button']:focus {
-    background: #000000;
-    color: #ffffff;
-    border: 2px solid #000000; }
 
 /*--------------------------------------------------------------
 Expenses
@@ -185,21 +131,6 @@ Footer
 /*--------------------------------------------------------------
 Header
 --------------------------------------------------------------*/
-.tackle-header {
-  background: #24292e;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 13px; }
-
-.tackle-secondary-nav {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end; }
-
-.tackle-primary-nav .fa-home {
-  font-size: 20px;
-  vertical-align: sub; }
-
 /*--------------------------------------------------------------
 Help
 --------------------------------------------------------------*/
@@ -421,7 +352,8 @@ Time Page Template Section 1a Tertiary
 
 .tackle-time-template-nav-today,
 .tackle-time-template-nav-day,
-.tackle-time-template-nav-week,
+.tackle-time-template-
+-week,
 .tackle-time-template-nav-day-left,
 .tackle-time-template-nav-day-right,
 .tackle-time-template-nav-calendar {
@@ -429,7 +361,8 @@ Time Page Template Section 1a Tertiary
   color: #000000; }
   .tackle-time-template-nav-today:hover,
   .tackle-time-template-nav-day:hover,
-  .tackle-time-template-nav-week:hover,
+  .tackle-time-template-
+  -week:hover,
   .tackle-time-template-nav-day-left:hover,
   .tackle-time-template-nav-day-right:hover,
   .tackle-time-template-nav-calendar:hover {
@@ -610,6 +543,25 @@ Time Page Template Section 2 Secondary 2
 .tackle-time-template-total,
 .tackle-time-template-total-time {
   font-size: 20px; }
+
+/*--------------------------------------------------------------
+Time Page Template
+--------------------------------------------------------------*/
+.tackle-time-sheet-header {
+  padding-top: 2.5rem;
+  padding-bottom: 1.25rem; }
+
+.tackle-entry-date {
+  font-size: 1.25rem; }
+
+.tackle-time-entry-content {
+  text-align: left; }
+
+.tackle-archive-container {
+  text-align: right; }
+
+.tackle-date {
+  font-size: 1.125rem; }
 
 /*--------------------------------------------------------------
 Translations

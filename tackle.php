@@ -59,8 +59,8 @@ function _tackle_php_version_text() {
 /**
  * Includes header for tackle templates.
  */
-function tackle_get_header() {
-	$header_path = plugin_dir_path( __FILE__ ) . 'page-templates/header.php';
+function tackle_get_navigation() {
+	$header_path = plugin_dir_path( __FILE__ ) . 'page-templates/navigation.php';
 
 	if ( file_exists( $header_path ) ) {
 	    include_once $header_path;
