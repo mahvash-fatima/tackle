@@ -8,4 +8,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
+Tackle is built with the following resources:
 
+Bootstrap: https://getbootstrap.com/
+License: Bootstrap is licensed under the MIT license.
+Contributing author: Mark Otto (https://github.com/mdo)
+Copyright: Copyright 2011-2019 The Bootstrap Authors

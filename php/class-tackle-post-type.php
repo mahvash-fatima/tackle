@@ -150,7 +150,7 @@ class Tackle_Post_Type {
 	 * @param string $single page template path.
 	 * @return string $single page template path.
 	 */
-	public function add_page_template( $single ) {
+	public function add_page_template( $single_template ) {
 		global $post;
 
 		if ( self::SLUG === $post->post_type ) {
@@ -171,7 +171,7 @@ class Tackle_Post_Type {
 			}
 		}
 
-		return $single;
+		return $single_template;
 	}
 
 	public function tackle_save_time_entry() {

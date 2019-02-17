@@ -10,25 +10,20 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-home-template-main" class="tackle-home-template-main margin-vertical">
-	<div class="grid-container">
+<main class="tackle-home container">
+	<div class="row">
+		<ul class="col-md-8 ml-0">
+			<li><i class="far fa-play-circle"></i>Learn the basics of time tracking</li>
+			<li><i class="fas fa-project-diagram"></i>Create a project</li>
+			<li><i class="fas fa-clock"></i>Track your first hour</li>
+			<li><i class="fas fa-mobile-alt"></i>Get the apps and browser extension</li>
+		</ul>
 
-		<div class="grid-x grid-padding-x">
-
-			<!--Section 1a-->
-			<div class="tackle-home-template-section-1a-primary large-8 medium-8 cell">
-				<?php require_once( dirname( __FILE__ ) . '/../template-parts/home-slider.php' ); ?>
-			</div>
-
-			<!--Section 1b-->
-			<div class="tackle-home-template-section-1b-secondary large-4 medium-4 cell">
-				<div class="tackle-home-template-section-1b-secondary-inner">
-					<h2 class="tackle-home-template-title">Welcome to Tackle, Mahvash!</h2>
-					<p class="tackle-home-template-paragraph">Here's how to get started</p>
-					<p><i class="fa fa-long-arrow-left" aria-hidden="true"></i></p>
-					<p class="tackle-home-template-time-icon"><i class="fa fa-clock-o" aria-hidden="true"></i></p>
-				</div>
-			</div>
+		<div class="col-md-4">
+			<h2>Welcome to Tackle, Mahvash!</h2>
+			<p>Here's how to get started</p>
+			<p><i class="fa fa-long-arrow-left" aria-hidden="true"></i></p>
+			<p><i class="fa fa-clock-o" aria-hidden="true"></i></p>
 		</div>
 	</div>
 </main>

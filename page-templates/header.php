@@ -18,37 +18,42 @@
 	<title>Document</title>
 	<?php wp_head(); ?>
 </head>
-<body id="tackle-body" class="tackle-body">
 
-<header id="tackle-header" class="tackle-header">
-	<div class="grid-container">
-		<div class="grid-x grid-padding-x">
-			<div id="tackle-primary-nav" class="tackle-primary-nav large-8 medium-8 cell">
-				<ul class="dropdown menu" data-dropdown-menu>
-					<li><a href="<?php echo home_url() . '/tackle'; ?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-					<li><a href="<?php echo home_url() . '/tackle/time'; ?>">Time</a></li>
-					<li><a href="<?php echo home_url() . '/tackle/expenses'; ?>">Expenses</a></li>
-					<li><a href="<?php echo home_url() . '/tackle/projects'; ?>">Projects</a></li>
-					<li><a href="<?php echo home_url() . '/tackle/reports'; ?>">Reports</a></li>
-					<li><a href="<?php echo home_url() . '/tackle/invoices'; ?>">Invoices</a></li>
-					<li><a href="<?php echo home_url() . '/tackle/manage'; ?>">Manage</a></li>
-				</ul>
-			</div>
-			<div id="tackle-secondary-nav" class="tackle-secondary-nav nav-style large-4 medium-4 cell">
-				<ul class="dropdown menu" data-dropdown-menu>
-					<li><a href="">Help</a></li>
-					<li><a href="">Settings</a></li>
-					<li>
-						<a href="">Account<i class="fa fa-caret-down" aria-hidden="true"></i></a>
-						<ul class="menu tackle-account-nav">
-							<li class="tackle-profile-nav"><a href="<?php echo home_url() . '/tackle/my-profile'; ?>"><img src="<?php echo plugin_dir_url( __FILE__ ) . '../images/profile.jpg'; ?>" alt=""><span>My Profile</span></a></li>
-							<li><a href="<?php echo home_url() . '/tackle/my-time-report'; ?>">My Time Report</a></li>
-							<li><a href="<?php echo home_url() . '/tackle/referrals'; ?>">Refferals</a></li>
-							<li class="tackle-signout-nav"><a href="<?php echo home_url() . '/tackle/signout'; ?>">Sign Out</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
+<body>
+	<header class="navbar-dark bg-dark">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg row">
+				<a class="navbar-brand" href="#">Tackle</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-0 mr-auto">
+						<li class="nav-item active"><a class="nav-link" href="<?php echo home_url() . '/tackle'; ?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/time'; ?>">Time</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/expenses'; ?>">Expenses</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/projects'; ?>">Projects</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/reports'; ?>">Reports</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/invoices'; ?>">Invoices</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/manage'; ?>">Manage</a></li>
+					</ul>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/time'; ?>">Help</a></li>
+						<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/expenses'; ?>">Settings</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Account
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="<?php echo home_url() . '/tackle/my-time-report'; ?>">My Time Report</a>
+								<a class="dropdown-item" href="<?php echo home_url() . '/tackle/referrals'; ?>">Referral</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="<?php echo home_url() . '/tackle/signout'; ?>">Sign Out</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
 		</div>
-	</div>
-</header>
+	</header>
