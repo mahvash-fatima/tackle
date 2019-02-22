@@ -45,9 +45,8 @@ class Plugin extends Plugin_Base {
 			wp_register_script( 'tackle-main', plugin_dir_url( __DIR__ ) . 'js/main.js', array( 'jquery' ), null, true );
 			wp_register_script( 'tackle-foundation', plugin_dir_url( __DIR__ ) . 'js/vendor/bootstrap.min.js', array( 'jquery' ), 0.1 );
 			wp_register_script( 'tackle-propper', plugin_dir_url( __DIR__ ) . 'js/vendor/propper.min.js', array( 'jquery' ), 0.1 );
-			wp_register_script( 'tackle-bpopup', plugin_dir_url( __DIR__ ) . 'js/vendor/jquery.bpopup.min.js', array( 'jquery' ), 0.1 );
 			wp_enqueue_script( 'tackle-main', 20, 1 );
-			wp_enqueue_script( 'tackle-bpopup' );
+			wp_enqueue_script( 'tackle-propper' );
 			wp_localize_script( 'tackle-main', 'tackleEntry', array(
 				'ajaxurl' => admin_url( 'admin-ajax.php' ),
 				'security' => wp_create_nonce( 'tackle_ajax_hook' ),

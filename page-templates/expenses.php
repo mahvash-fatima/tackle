@@ -10,136 +10,138 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-expenses-template-main" class="tackle-expenses-template-main margin-vertical">
-	<div class="grid-container">
-
-		<!--Section 1-->
-		<div class="tackle-expenses-template-section-1 margin-bottom grid-x grid-padding-x">
-			<div class="large-12 cell">
-
-				<div class="grid-x grid-padding-x">
-					<div class="large-2 medium-2 cell">
-						<a href="" class="tackle-expenses-template-add-new-expense">
-							<i class="fa fa-plus" aria-hidden="true"></i>
-							New Expense
-						</a>
+<section class="container">
+	<div class="d-flex justify-content-between pt-5 pb-3">
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><i class="fas fa-plus"></i> New Expense</button>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">New Expense</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
 					</div>
-					<div class="large-10 medium-10 cell">
-						<div class="grid-x grid-padding-x">
-							<div class="large-3 medium-3 cell">
-								<label for="tackle-date">
-									<span>Date</span>
-									<input type="date" id="tackle-date">
+					<div class="modal-body">
+						<form>
+							<div class="form-group">
+								<label for="date" class="col-form-label d-none"></label>
+								<input type="date" class="form-control" id="date">
+							</div>
+							<div class="form-group">
+								<label for="choose-a-project" class="d-none"></label>
+								<select class="form-control" id="choose-a-project">
+									<option>Choose a project</option>
+									<option>Fixed Fee Project</option>
+									<option>Non Billable Project</option>
+									<option>Monthly Retainer</option>
+									<option>Time & Materials Project</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="choose-a-category" class="d-none"></label>
+								<select class="form-control" id="choose-a-category">
+									<option>Choose a category</option>
+									<option>Entertainment</option>
+									<option>Lodging</option>
+									<option>Meals</option>
+									<option>Mileage</option>
+									<option>Other</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="notes" class="col-form-label d-none"></label>
+								<textarea class="form-control" id="notes" placeholder="Notes (optional)"></textarea>
+							</div>
+							<div class="form-group">
+								<label for="amount" class="col-form-label d-none"></label>
+								<input type="number" class="form-control" id="amount" placeholder="Amount">
+							</div>
+							<div class="custom-file mb-3">
+								<input type="file" class="custom-file-input" id="attach-receipt">
+								<label class="custom-file-label" for="attach-receipt"><i class="fas fa-paperclip"></i> Attach receipt</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="billable">
+								<label class="form-check-label" for="billable">
+									This expense is billable
 								</label>
 							</div>
-
-							<div class="large-5 medium-5 cell">
-								<p>
-									<label for="tackle-project">
-										<span>Project</span>
-										<select name="" id="tackle-project">
-											<option value="" disabled selected>Choose a project...</option>
-											<option value="">Tackle</option>
-										</select>
-									</label>
-								</p>
-
-								<p>
-									<label for="tackle-category">
-										<span>Category</span>
-										<select name="" id="tackle-category">
-											<option value="" disabled selected>Choose a category...</option>
-											<option value="">Entertainment</option>
-											<option value="">Lodging</option>
-											<option value="">Meals</option>
-											<option value="">Mileage</option>
-											<option value="">Other</option>
-											<option value="">Transportation</option>
-										</select>
-									</label>
-								</p>
-
-								<p>
-									<label for="tackle-project-category-notes">
-										<textarea name="" id="" cols="3" rows="3" placeholder="Notes (optional)"></textarea>
-									</label>
-									<span><i class="fa fa-paperclip" aria-hidden="true"></i>Attach Receipt</span>
-								</p>
-
-								<p>
-									<label for="tackle-this-expense-is-billable">
-										<input type="checkbox" id="tackle-this-expense-is-billable">
-										<span>This expense is billable</span>
-									</label>
-								</p>
-
-								<span><a href="">Save Expense</a></span>
-								<span><a href="">Cancel</a></span>
-							</div>
-
-							<div class="large-2 medium-2 cell">
-								<label for="tackle-amount">
-									<span>Amount</span>
-									<textarea name="" id="tackle-amount" cols="1" rows="3" placeholder="₹">₹</textarea>
-								</label>
-							</div>
-						</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+						<button type="button" class="btn btn-primary">Save Expense</button>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<!--Section 2-->
-		<div class="tackle-expenses-template-section-2 margin-bottom grid-x grid-padding-x">
-			<div class="large-12 cell">
-
-				<div class="grid-x grid-padding-x">
-					<div class="large-2 medium-2 cell">
-						<p>14 - 20 Aug 2017</p>
+		<div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Teammates
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<form>
+					<div class="form-group p-3">
+						<label for="choose-a-project">See another person’s expenses:</label>
+						<select class="form-control" id="choose-a-project">
+							<option>Choose a project</option>
+							<option>Fixed Fee Project</option>
+							<option>Non Billable Project</option>
+							<option>Monthly Retainer</option>
+							<option>Time & Materials Project</option>
+						</select>
 					</div>
-					<div class="large-10 medium-10 cell">
-						<div class="grid-x grid-padding-x">
-							<div class="large-2 medium-5 cell">
-								<p><?php echo date( 'd M' ); ?></p>
-							</div>
-
-							<div class="large-6 medium-6 cell">
-								<p>
-									Tackle
-									<span>(Mahvash)</span>
-								</p>
-
-								<p>
-									<span>Billable</span>
-									<span>Other</span>
-									<span>-</span>
-									<span>Add New Expense Notes</span>
-								</p>
-							</div>
-
-							<div class="large-2 medium-2 cell">
-								<span>₹500.00</span>
-								<span><i class="fa fa-paperclip" aria-hidden="true"></i></span>
-								<span><i class="fa fa-pencil" aria-hidden="true"></i></span>
-							</div>
-						</div>
-					</div>
-				</div>
-
+				</form>
 			</div>
 		</div>
-
-		<!--Section 3-->
-		<div class="grid-x grid-padding-x">
-			<div class="tackle-expenses-template-section-3 large-12 cell">
-				<p class="tackle-expenses-template-expense-info">
-					Looks a little empty here! <br>
-					<a href="" class="tackle-expenses-template-expense-link">Create your first expense</a> to get started.
-				</p>
-			</div>
-		</div>
-
 	</div>
-</main>
+	<table class="table table-bordered">
+		<tbody>
+			<tr>
+				<th scope="row">
+					<span>11 – 17 Feb 2019</span>
+					<p><a href="#">Submit for Approval</a></p>
+				</th>
+				<td>Fri, 15 Feb</td>
+				<td>
+					<span>[SAMPLE] Monthly Retainer</span>
+					<span>([SAMPLE] Client B)</span>
+					<p>
+						<span>Billable</span>
+						<span>Meals - </span>
+						<span>This is a sample expense entry.</span>
+					</p>
+				</td>
+				<td>₹33.00</td>
+				<td><i class="fas fa-edit"></i></td>
+			</tr>
+			<tr>
+				<th scope="row">
+					<span>04 – 10 Feb 2019</span>
+					<p><a href="#">Submit for Approval</a></p>
+				</th>
+				<td>Sat, 09 Feb</td>
+				<td>
+					<span>[SAMPLE] Time & Materials Project</span>
+					<span>([SAMPLE] Client B)</span>
+					<p>
+						<span>Lodging - </span>
+						<span>This is a sample expense entry.</span>
+					</p>
+				</td>
+				<td>₹70.00</td>
+				<td><i class="fas fa-edit"></i></td>
+			</tr>
+			<tr>
+				<th scope="row"></th>
+				<td></td>
+				<td>Total: </td>
+				<td>₹70.00</td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+</section>
 
 <?php tackle_get_footer(); ?>
