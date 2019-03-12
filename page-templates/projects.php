@@ -10,140 +10,162 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-projects-template-main" class="tackle-projects-template-main margin-vertical">
-	<div class="grid-container">
-
-		<!--Section 1-->
-		<div class="tackle-projects-template-section-1 grid-x grid-padding-x">
-			<!--Subsection 1a - primary-->
-			<span class="tackle-projects-template-subsection-1a-primary large-9 medium-9 cell">
-				<a href="<?php echo home_url() . '/tackle/new-project'; ?>" class="tackle-add-new-project-button"><i class="fa fa-plus" aria-hidden="true"></i>New Project</a>
-				<a href="" class="tackle-import-button">Import</a>
-				<a href="" class="tackle-export-button">Export</a>
-			</span>
-			<!--Subsection 1b - secondary-->
-			<span class="tackle-projects-template-subsection-1b-secondary large-3 medium-3 cell">
-				<i class="fa fa-search" aria-hidden="true"></i><input type="text" placeholder="Search by client or project name">
-			</span>
+<nav class="navbar-light bg-light">
+	<div class="container pt-3 pb-3 d-md-flex justify-content-md-between">
+		<div class="mb-2 mb-md-0">
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo"><i class="fas fa-plus"></i> New Expense</button>
+			<button type="button" class="btn btn-outline-secondary">Import</button>
+			<button type="button" class="btn btn-outline-secondary">Export</button>
 		</div>
+		<div class=""><?php get_search_form(); ?></div>
+	</div>
+</nav>
 
-		<!--Section 2-->
-		<div class="tackle-projects-template-section-2 grid-x grid-padding-x">
-			<div class="large-12 cell">
-
-				<!--Subsection 2a-->
-				<div class="tackle-projects-template-section-2a large-12 cell">
-					<nav class="tackle-projects-template-section-2a-nav nav-style">
-						<ul class="dropdown menu" data-dropdown-menu>
-							<li>
-								<a href="" class="tackle-projects-table-data-actions">
-									Active Projects(3)
-									<i class="fa fa-angle-down" aria-hidden="true"></i>
-								</a>
-								<ul class="menu">
-									<li><a href="">Active Projects(3)</a></li>
-									<li><a href="">Budgeted Projects(3)</a></li>
-									<li><a href="">Archived Projects(0)</a></li>
-								</ul>
-							</li>
-						</ul>
-					</nav>
-				</div>
-
-				<!--Subsection 2b-->
-				<table class="tackle-projects-template-section-2b large-12 cell">
-					<tbody>
-						<tr>
-							<th>Mahvash</th>
-							<th>Budget</th>
-							<th>Spent</th>
-							<th>Meter</th>
-							<th>Remaining</th>
-							<th>Remaining Percent</th>
-							<th>Costs</th>
-							<th>Actions</th>
-						</tr>
-						<tr>
-							<td><a href="">Study</a></td>
-							<td><a href="">Budget</a></td>
-							<td><a href="">Spent</a></td>
-							<td><a href="">Meter</a></td>
-							<td><a href="">Remaining</a></td>
-							<td><a href="">Remaining Percent</a></td>
-							<td><a href="">Costs</a></td>
-							<td class="tackle-projects-table-actions-nav nav-style">
-								<ul class="dropdown menu" data-dropdown-menu>
-									<li>
-										<a href="" class="tackle-projects-table-data-actions">
-											Actions
-											<i class="fa fa-angle-down" aria-hidden="true"></i>
-										</a>
-										<ul class="menu">
-											<li><a href="">Edit</a></li>
-											<li><a href="">Duplicate</a></li>
-											<li><a href="">Archive</a></li>
-											<li><a href="">Delete</a></li>
-										</ul>
-									</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<td><a href="">JavaScript</a></td>
-							<td><a href="">Budget</a></td>
-							<td><a href="">Spent</a></td>
-							<td><a href="">Meter</a></td>
-							<td><a href="">Remaining</a></td>
-							<td><a href="">Remaining Percent</a></td>
-							<td><a href="">Costs</a></td>
-							<td class="tackle-projects-table-actions-nav">
-								<ul class="dropdown menu" data-dropdown-menu>
-									<li>
-										<a href="" class="tackle-projects-table-data-actions">
-											Actions
-											<i class="fa fa-angle-down" aria-hidden="true"></i>
-										</a>
-										<ul class="menu">
-											<li><a href="">Edit</a></li>
-											<li><a href="">Duplicate</a></li>
-											<li><a href="">Archive</a></li>
-											<li><a href="">Delete</a></li>
-										</ul>
-									</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<td><a href="">Plugin</a></td>
-							<td><a href="">Budget</a></td>
-							<td><a href="">Spent</a></td>
-							<td><a href="">Meter</a></td>
-							<td><a href="">Remaining</a></td>
-							<td><a href="">Remaining Percent</a></td>
-							<td><a href="">Costs</a></td>
-							<td class="tackle-projects-table-actions-nav">
-								<ul class="dropdown menu" data-dropdown-menu>
-									<li>
-										<a href="" class="tackle-projects-table-data-actions">
-											Actions
-											<i class="fa fa-angle-down" aria-hidden="true"></i>
-										</a>
-										<ul class="menu">
-											<li><a href="">Edit</a></li>
-											<li><a href="">Duplicate</a></li>
-											<li><a href="">Archive</a></li>
-											<li><a href="">Delete</a></li>
-										</ul>
-									</li>
-								</ul>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-
+<section class="container">
+	<div class="pt-5 pb-3">
+		<div class="dropdown">
+			<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Active Projects (4)
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#">Active Projects(4)</a>
+				<a class="dropdown-item" href="#">Budgeted Projects(4)</a>
+				<a class="dropdown-item" href="#">Archived Projects(4)</a>
 			</div>
 		</div>
 	</div>
-</main>
+	<div class="table-responsive">
+		<table class="table table-bordered">
+			<thead class="thead-light">
+			<tr>
+				<th scope="col">[SAMPLE] CLIENT A</th>
+				<th scope="col">Budget</th>
+				<th scope="col">Spent</th>
+				<th scope="col">Remaining</th>
+				<th>Costs</th>
+				<th>Actions</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<th scope="row">[SAMPLE] Fixed Fee Project</th>
+				<td>₹70.00</td>
+				<td>
+					<span>₹21,699.25</span>
+					<div class="progress" style="height: 2px;">
+						<div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>-₹21,629.25</span>
+				</td>
+				<td>-30,899%</td>
+				<td>₹8,658.40</td>
+				<td>
+					<div class="dropdown">
+						<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Actions
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Edit</a>
+							<a class="dropdown-item" href="#">Duplicate</a>
+							<a class="dropdown-item" href="#">Archive</a>
+							<a class="dropdown-item" href="#">Delete</a>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">[SAMPLE] Non-Billable Project</th>
+				<td>200.00</td>
+				<td>
+					<span>157.83</span>
+					<div class="progress" style="height: 2px;">
+						<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<span>42.17</span>
+				</td>
+				<td>21%</td>
+				<td>₹8,125.80</td>
+				<td>
+					<div class="dropdown">
+						<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Actions
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Edit</a>
+							<a class="dropdown-item" href="#">Duplicate</a>
+							<a class="dropdown-item" href="#">Archive</a>
+							<a class="dropdown-item" href="#">Delete</a>
+						</div>
+					</div>
+				</td>
+			</tr>
+			</tbody>
+			<thead class="thead-light">
+			<tr>
+				<th scope="col">[SAMPLE] CLIENT B</th>
+				<th scope="col">Budget</th>
+				<th scope="col">Spent</th>
+				<th scope="col">Remaining</th>
+				<th>Costs</th>
+				<th>Actions</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<th scope="row">[SAMPLE] Monthly Retainer</th>
+				<td>₹10,000.00</td>
+				<td>
+					<span>₹10,250.50</span>
+					<div class="progress" style="height: 2px;">
+						<div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="95"></div>
+					</div>
+					<span>-₹250.50</span>
+				</td>
+				<td>-3%</td>
+				<td>₹7,606.40</td>
+				<td>
+					<div class="dropdown">
+						<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Actions
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Edit</a>
+							<a class="dropdown-item" href="#">Duplicate</a>
+							<a class="dropdown-item" href="#">Archive</a>
+							<a class="dropdown-item" href="#">Delete</a>
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<th scope="row">[SAMPLE] Time & Materials Project</th>
+				<td>127.00</td>
+				<td>
+					<span>140.87</span>
+					<div class="progress" style="height: 2px;">
+						<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90"></div>
+					</div>
+					<span>-13.87</span>
+				</td>
+				<td>-11%</td>
+				<td>₹7,369.80</td>
+				<td>
+					<div class="dropdown">
+						<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Actions
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">Edit</a>
+							<a class="dropdown-item" href="#">Duplicate</a>
+							<a class="dropdown-item" href="#">Archive</a>
+							<a class="dropdown-item" href="#">Delete</a>
+						</div>
+					</div>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+</section>
 
 <?php tackle_get_footer(); ?>

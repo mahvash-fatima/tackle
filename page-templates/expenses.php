@@ -137,7 +137,7 @@ tackle_get_header();
 				<th scope="row"></th>
 				<td></td>
 				<td>Total: </td>
-				<td>₹70.00</td>
+				<td>₹103.00</td>
 				<td></td>
 			</tr>
 		</tbody>

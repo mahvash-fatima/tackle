@@ -113,6 +113,7 @@ class Tackle_Post_Type {
 			'uninvoiced',
 			'upgrade',
 			'your-projects',
+			'team',
 		);
 
 		$this->create_pages();

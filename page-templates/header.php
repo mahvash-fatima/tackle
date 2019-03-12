@@ -34,6 +34,7 @@
 					<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/time'; ?>">Time</a></li>
 					<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/expenses'; ?>">Expenses</a></li>
 					<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/projects'; ?>">Projects</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/Team'; ?>">Team</a></li>
 					<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/reports'; ?>">Reports</a></li>
 					<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/invoices'; ?>">Invoices</a></li>
 					<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/manage'; ?>">Manage</a></li>
