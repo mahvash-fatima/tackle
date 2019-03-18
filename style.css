@@ -234,8 +234,8 @@ Import Data into Tackle
 /*--------------------------------------------------------------
 Invoices
 --------------------------------------------------------------*/
-.tackle-invoices-template-section-3 {
-  text-align: center; }
+.invoices__title {
+  width: 200px; }
 
 /*--------------------------------------------------------------
 Item Types

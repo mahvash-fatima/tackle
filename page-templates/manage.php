@@ -22,50 +22,79 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-manage-template-main" class="tackle-manage-template-main">
-	<div class="grid-container">
-
-		<!--Section 1-->
-		<div class="tackle-manage-template-section-1 grid-x grid-padding-x margin-vertical">
-			<nav class="large-12 cell">
-				<ul class="menu">
-					<li><a href="<?php echo home_url() . '/tackle/clients'; ?>">Clients</a></li>
-					<li><a href="<?php echo home_url() . '/tackle/tasks'; ?>">Task</a></li>
-					<li><a href="<?php echo home_url() . '/tackle/expense-categories'; ?>">Expense Categories</a></li>
-				</ul>
-			</nav>
-		</div>
-
-		<!--Section 2-->
-		<div class="grid-x grid-padding-x">
-			<div class="tackle-manage-template-section-2 margin-vertical large-12 cell">
-				<a href="" class="tackle-manage-template-add-new-client">
-					<i class="fa fa-plus" aria-hidden="true"></i>
-					New Client
-				</a>
-				<a href="" class="tackle-manage-template-add-new-contact">
-					<i class="fa fa-plus" aria-hidden="true"></i>
-					Add Contact
-				</a>
-				<a href="" class="tackle-manage-template-add-new-import-export">
-					<i class="fa fa-plus" aria-hidden="true"></i>
-					Import/Export
-				</a>
-			</div>
-		</div>
-
-		<!--Section 3-->
-		<div class="grid-x grid-padding-x">
-			<div class="tackle-manage-template-section-3 margin-vertical large-12 cell">
-				<p class="tackle-manage-template-client">
-					Mahvash
-					<a href="" class="tackle-manage-template-edit-link">Edit</a>
-					<span>|</span>
-					<a href="" class="tackle-manage-template-add-contact-link">Add Contact</a>
-				</p>
-			</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-0">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Clients <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Tasks</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Expense Categories</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Roles</a>
+				</li>
+			</ul>
 		</div>
 	</div>
-</main>
+</nav>
+
+<div class="container pt-3 pb-3">
+	<h2>Manage Clients</h2>
+	<button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo"><i class="fas fa-plus"></i> New Client</button>
+	<button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#exampleModal2" data-whatever="@mdo"><i class="fas fa-plus"></i> Add Client</button>
+	<div class="dropdown d-inline-block mb-2">
+		<button class="btn btn-secondary dropdown-toggle mb-2" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Import / Export
+		</button>
+		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			<a class="dropdown-item" href="#">Import Clients From CSV</a>
+			<a class="dropdown-item" href="#">Import Contact From CSV</a>
+			<a class="dropdown-item" href="#">Export Clients to Excel</a>
+			<a class="dropdown-item" href="#">Export Clients to CSV</a>
+			<a class="dropdown-item" href="#">Export Contacts to Excel</a>
+			<a class="dropdown-item" href="#">Export Contacts to CSV</a>
+		</div>
+	</div>
+	<div class="table-responsive">
+		<table class="table table-striped">
+			<tbody>
+			<tr>
+				<th><button type="button" class="btn btn-light">Edit</button></th>
+				<td>[SAMPLE] Client A</td>
+				<td class="text-right"><button type="button" class="btn btn-light"><i class="fas fa-plus"></i> Add Contact</button></td>
+			</tr>
+			<tr>
+				<th><button type="button" class="btn btn-light">Edit</button></th>
+				<td>
+					<span>[SAMPLE] Sophia Stopwatch</span>
+					<p>sophia@harvestsample.com</p>
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<th><button type="button" class="btn btn-light">Edit</button></th>
+				<td>[SAMPLE] Client B</td>
+				<td class="text-right"><button type="button" class="btn btn-light"><i class="fas fa-plus"></i> Add Contact</button></td>
+			</tr>
+			<tr>
+				<th><button type="button" class="btn btn-light">Edit</button></th>
+				<td>
+					<span>[SAMPLE] Morgan Minute</span>
+					<p>morgan@harvestsample.com</p>
+				</td>
+				<td></td>
+			</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
 
 <?php tackle_get_footer(); ?>
