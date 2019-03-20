@@ -93,7 +93,6 @@ class Tackle_Post_Type {
 			'manage-tasks',
 			'messages',
 			'my-profile',
-			'my-time-report',
 			'new-client',
 			'new-project',
 			'online-payment',

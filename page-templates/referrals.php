@@ -10,100 +10,62 @@ tackle_get_header();
 
 ?>
 
-<main id="tackle-referrals-template-main" class="tackle-referrals-template-main margin-vertical">
-	<div class="grid-container">
-		<div class="grid-x grid-padding-x">
-
-			<div class="tackle-referrals-template large-12 cell">
-
-				<div class="grid-x grid-padding-x">
-					<div class="large-12">
-						<h2>Invite Your Friends to Try Harvest</h2>
-						<p>
-							They’ll save $10 off their first month and you’ll receive a $10 credit for each referral.
-							<a href="">Learn more</a>
-						</p>
-					</div>
-				</div>
-
-				<div class="grid-x grid-padding-x">
-					<div class="large-3">
-						<p>0</p>
-						<p>Total Trials</p>
-					</div>
-					<div class="large-3">
-						<p>0</p>
-						<p>Referred Customers</p>
-					</div>
-					<div class="large-3">
-						<p>$0</p>
-						<p>Total Earned Credits</p>
-					</div>
-					<div class="large-3">
-						<p>$0</p>
-						<p>Remaining Credits</p>
-					</div>
-				</div>
-
-				<div class="grid-x grid-padding-x">
-					<div class="large-3">
-						<p>Invitation Link</p>
-					</div>
-					<div class="large-9">
-						<p>
-							<label for="tackle-invitation-link">
-								<input type="text" id="tackle-invitation-link" value="http://try.hrv.st/1-823706">
-							</label>
-						</p>
-					</div>
-				</div>
-
-				<div class="grid-x grid-padding-x">
-					<div class="large-3">
-						<p>Share Invitation</p>
-					</div>
-					<div class="large-9">
-						<p>
-							<a href=""><i class="fa fa-twitter" aria-hidden="true"></i>Share on Twitter</a>
-							<a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i>Share on Facebook</a>
-						</p>
-					</div>
-				</div>
-
-				<div class="grid-x grid-padding-x">
-					<div class="large-3">
-						<p>Invite by Email</p>
-					</div>
-					<div class="large-9">
-						<p>
-							<label for="tackle-invite-by-email">
-								<textarea name="" id="tackle-invite-by-email" cols="30" rows="4"></textarea>
-							</label>
-							<span>Separate email addresses with a comma.</span>
-						</p>
-						<p><a href="">Send Invitations</a></p>
-					</div>
-				</div>
-
-				<div class="grid-x grid-padding-x">
-					<div class="large-3">
-						<p>Your Testimonial</p>
-					</div>
-					<div class="large-9">
-						<p>
-							<label for="tackle-your-testimonial">
-								<textarea name="" id="tackle-your-testimonial" cols="30" rows="2" placeholder="Optionally, tell us why you love Tackle."></textarea>
-							</label>
-							<span>200 characters remaining.</span>
-						</p>
-						<p><a href="">Save Testimonial</a></p>
-					</div>
-				</div>
-
-			</div>
-
+<div class="container pt-3 pb-3">
+	<h3>Invite Your Friends to Try Harvest</h3>
+	<p>They’ll save $10 off their first month and you’ll receive a $10 credit for each referral.
+		<a href="">Learn more</a>
+	</p>
+	<div class="row text-center mt-3 mb-3">
+		<div class="col-3">
+			<h6>0</h6>
+			<p>Total Trials</p>
+		</div>
+		<div class="col-3">
+			<h6>0</h6>
+			<p>Referred Customers</p>
+		</div>
+		<div class="col-3">
+			<h6>$0</h6>
+			<p>Total Earned Credits</p>
+		</div>
+		<div class="col-3">
+			<h6>$0</h6>
+			<p>Remaining Credits</p>
 		</div>
 	</div>
-</main>
+	<form>
+		<form>
+			<div class="form-group row">
+				<label for="inputEmail1" class="col-sm-2 col-form-label">Invitation Link</label>
+				<div class="col-sm-10">
+					<input type="url" class="form-control" id="inputEmail3" value="http://try.hrv.st/2-571910" disabled="">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="inputEmail2" class="col-sm-2 col-form-label">Share Invitation</label>
+				<div class="col-sm-10">
+					<button type="button" class="btn btn-light"><i class="fab fa-twitter"></i> Share on Twitter</button>
+					<button type="button" class="btn btn-light"><i class="fab fa-facebook"></i> Share on Facebook</button>
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="inputEmail3" class="col-sm-2 col-form-label">Invite by Email</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" id="inputEmail3" rows="3"></textarea>
+					<p>Enter up to 5 email addresses. Separate them with a comma.</p>
+					<button type="button" class="btn btn-primary">Send Invitation</button>
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="inputEmail3" class="col-sm-2 col-form-label">Your Testimonial</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" id="inputEmail3" rows="3"></textarea>
+					<p>200 characters remaining.</p>
+					<button type="button" class="btn btn-primary">Save Testimonials</button>
+				</div>
+			</div>
+		</form>
+	</form>
+</div>
 
 <?php tackle_get_footer(); ?>
