@@ -41,16 +41,20 @@
 				</ul>
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/time'; ?>">Help</a></li>
-					<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/expenses'; ?>">Settings</a></li>
+					<li class="nav-item"><a class="nav-link" href="<?php echo home_url() . '/tackle/settings'; ?>">Settings</a></li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Account
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="<?php echo home_url() . '/tackle/my-profile'; ?>">My Profile</a>
 							<a class="dropdown-item" href="<?php echo home_url() . '/tackle/my-time-report'; ?>">My Time Report</a>
-							<a class="dropdown-item" href="<?php echo home_url() . '/tackle/referrals'; ?>">Referral</a>
+							<a class="dropdown-item" href="<?php echo home_url() . '/tackle/notifications'; ?>">Notifications</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="<?php echo home_url() . '/tackle/signout'; ?>">Sign Out</a>
+							<a class="dropdown-item" href="<?php echo home_url() . '/tackle/apps-and-integration'; ?>">Apps & Integrations</a>
+							<a class="dropdown-item" href="<?php echo home_url() . '/tackle/referrals'; ?>">Referrals</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="<?php echo home_url() . '/tackle/sign-out'; ?>">Sign Out</a>
 						</div>
 					</li>
 				</ul>
@@ -58,4 +62,3 @@
 		</nav>
 	</div>
 </header>
-
