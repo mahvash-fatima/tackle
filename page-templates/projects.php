@@ -34,7 +34,7 @@ tackle_get_header();
 			</div>
 		</div>
 	</div>
-	<div class="table-responsive">
+	<div class="table-responsive mb-4">
 		<table class="table table-bordered">
 			<thead class="thead-light">
 			<tr>
@@ -165,6 +165,14 @@ tackle_get_header();
 			</tr>
 			</tbody>
 		</table>
+	</div>
+	<div class="alert alert-secondary alert-dismissible fade show" role="alert">
+		<h4>You’re ready to take command, Captain!</h4>
+		<p>The more time tracked, the more useful this Projects section becomes. Up top you’ll see handy graphs, reports, and everything you’ll need for smooth sailing.</p>
+		<a href="">Discover more with our Projects tour</a>
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
 	</div>
 </section>
 
