@@ -103,6 +103,7 @@ class Tackle_Post_Type {
 			'reports',
 			'reports-expense',
 			'retainers',
+			'review',
 			'settings',
 			'security',
 			'signout',
