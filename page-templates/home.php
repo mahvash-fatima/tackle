@@ -43,7 +43,7 @@ tackle_get_header();
 			</form>
 		</div>
 		<div class="col-md-4">
-			<p>Welcome</p>
+			<img src="<?php echo plugin_dir_url( __DIR__ ) . '/images/welcome.png' ?>" alt="Welcome">
 		</div>
 	</div>
 </div>

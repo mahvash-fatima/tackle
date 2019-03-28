@@ -10,55 +10,6 @@ Functions
 /*--------------------------------------------------------------
 Custom
 --------------------------------------------------------------*/
-.tackle-body {
-  font-family: 'Karla', sans-serif;
-  color: #000000;
-  background: #ffffff;
-  font-size: 14px; }
-
-.margin-vertical {
-  margin-top: 50px;
-  margin-bottom: 50px; }
-
-.margin-bottom {
-  margin-bottom: 30px; }
-
-.nav-style ul li {
-  position: relative; }
-  .nav-style ul li ul {
-    position: absolute;
-    top: 48px;
-    right: 0;
-    background: #f0f0f0;
-    color: #000000;
-    z-index: 1;
-    display: none;
-    min-width: 230px;
-    font-weight: 400; }
-  .nav-style ul li:hover ul {
-    display: block; }
-
-.tackle-profile-nav {
-  background: #ffffff;
-  box-shadow: 0 4px 6px -2px #cdcdcd; }
-  .tackle-profile-nav img {
-    margin-right: 10px; }
-
-.tackle-signout-nav {
-  border-top: 1px solid #cccccc; }
-
-.tackle-primary-nav ul li > a, .tackle-secondary-nav ul li > a {
-  line-height: 2; }
-
-.tackle-primary-nav a:hover, .tackle-secondary-nav a:hover {
-  background: rgba(163, 172, 182, 0.2); }
-
-.tackle-secondary-nav .fa-caret-down {
-  margin-left: 5px; }
-
-.tackle-home-template-main {
-  min-height: 500px; }
-
 /*--------------------------------------------------------------
 Account
 --------------------------------------------------------------*/
@@ -104,67 +55,59 @@ Edit Preferences
 /*--------------------------------------------------------------
 Elements
 --------------------------------------------------------------*/
-.tackle-body h1, .tackle-body h2, .tackle-body h3, .tackle-body h4, .tackle-body h5, .tackle-body h6 {
-  margin: 0 0 7px 0;
-  font-family: inherit;
-  color: inherit; }
-
-.tackle-body h1 {
-  font-size: 30px; }
-
-.tackle-body h2 {
-  font-size: 28px; }
-
-.tackle-body h3 {
-  font-size: 26px; }
-
-.tackle-body h4 {
-  font-size: 24px; }
-
-.tackle-body h5 {
-  font-size: 22px; }
-
-.tackle-body h6 {
-  font-size: 20px; }
-
-.tackle-body p {
-  margin-bottom: 7px; }
-
-.tackle-body ul {
-  margin: 0;
-  list-style: none; }
-
-.tackle-body a {
-  color: inherit; }
-  .tackle-body a:hover {
+body {
+  font-family: 'Tajawal', sans-serif !important; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    margin: 0 0 7px 0;
+    font-family: inherit;
     color: inherit; }
-  .tackle-body a:focus {
+  body h1 {
+    font-size: 30px; }
+  body h2 {
+    font-size: 28px; }
+  body h3 {
+    font-size: 26px; }
+  body h4 {
+    font-size: 24px; }
+  body h5 {
+    font-size: 22px; }
+  body h6 {
+    font-size: 20px; }
+  body p {
+    margin-bottom: 7px; }
+  body ul {
+    margin: 0;
+    list-style: none; }
+  body a {
     color: inherit; }
-
-.tackle-body button,
-.tackle-body input[type='submit'],
-.tackle-body input[type='button'] {
-  font-family: inherit;
-  background: #ffffff;
-  color: #000000;
-  padding: 8px 10px;
-  text-transform: uppercase;
-  border: 2px solid;
-  border-radius: 0;
-  font-weight: 700;
-  font-size: 12px; }
-  .tackle-body button:hover,
-  .tackle-body input[type='submit']:hover,
-  .tackle-body input[type='button']:hover {
-    background: #000000;
-    color: #ffffff;
-    border: 2px solid #000000; }
-  .tackle-body button:focus,
-  .tackle-body input[type='submit']:focus,
-  .tackle-body input[type='button']:focus {
-    background: #000000;
-    color: #ffffff;
-    border: 2px solid #000000; }
+    body a:hover {
+      color: inherit; }
+    body a:focus {
+      color: inherit; }
+  body button,
+  body input[type='submit'],
+  body input[type='button'] {
+    font-family: inherit;
+    background: #ffffff;
+    color: #000000;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    border: 2px solid;
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 12px; }
+    body button:hover,
+    body input[type='submit']:hover,
+    body input[type='button']:hover {
+      background: #000000;
+      color: #ffffff;
+      border: 2px solid #000000; }
+    body button:focus,
+    body input[type='submit']:focus,
+    body input[type='button']:focus {
+      background: #000000;
+      color: #ffffff;
+      border: 2px solid #000000; }
 
 /*--------------------------------------------------------------
 Expenses
@@ -195,21 +138,6 @@ Footer
 /*--------------------------------------------------------------
 Header
 --------------------------------------------------------------*/
-.tackle-header {
-  background: #24292e;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 13px; }
-
-.tackle-secondary-nav {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end; }
-
-.tackle-primary-nav .fa-home {
-  font-size: 20px;
-  vertical-align: sub; }
-
 /*--------------------------------------------------------------
 Help
 --------------------------------------------------------------*/

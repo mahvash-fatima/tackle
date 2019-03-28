@@ -99,7 +99,7 @@ function tackle_get_footer() {
  * @return string Google fonts URL for the plugin.
  */
 function tackle_fonts_url() {
-	$font_url = 'fonts.googleapis.com/css?family=Karla:400,700';
+	$font_url = 'fonts.googleapis.com/css?family=Tajawal:300,400';
 
 	return ( substr( site_url(), 0, 8 ) == 'https://') ? 'https://' . $font_url : 'http://' . $font_url;
 }
