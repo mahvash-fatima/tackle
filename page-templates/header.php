@@ -20,7 +20,7 @@
 </head>
 
 <body>
-<header class="navbar-dark bg-dark">
+<header class="header navbar-dark bg-dark">
 	<div class="container">
 		<nav class="navbar navbar-expand-lg row">
 			<a class="navbar-brand" href="<?php echo home_url() . '/tackle'; ?>">Tackle</a>

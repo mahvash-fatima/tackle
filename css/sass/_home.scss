@@ -1,3 +1,14 @@
-.tackle-home {
-	min-height: 500px;
+.tackle-page {
+	min-height: rem-calc(800);
 }
+
+.home {
+	&__icon {
+		min-width: rem-calc(20);
+	}
+	&__list-group {
+		font-size: rem-calc(21);
+		font-weight: 500;
+	}
+}
+
